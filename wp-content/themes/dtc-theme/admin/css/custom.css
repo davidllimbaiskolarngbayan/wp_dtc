@@ -1,0 +1,91 @@
+.ht_add_new_size {
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #00A0D2;
+    border: 1px solid #0073AA;
+    color: #FFFFFF;font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.ht_add_new_size img{
+    display: none;
+}
+.ht_add_new_size:hover{
+    background: #0091cd;
+}
+.select_size {
+    /*width: 300px;*/
+}
+.list_size_tyre {
+    display: inline-block;
+}
+.size_item {
+    float: left;
+}
+.size_item select{
+    height: auto !important;
+padding: 5px;
+}
+.ht_delete {
+    width: 16px;
+    height: 16px;
+    background: url("../images/delete.png") no-repeat center center;
+    cursor: pointer;
+    display: inline-block;
+    background-size: 16px;
+    margin: 10px;
+}
+.size_item div{
+    float: left;
+}
+body.ebsp-mf-shown .mfp-wrap {
+    z-index: 1000001 !important;
+}
+
+/*OE tyre*/
+.ht_add_new_oetyre {
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #00A0D2;
+    border: 1px solid #0073AA;
+    color: #FFFFFF;font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.ht_add_new_oetyre img{
+    display: none;
+}
+.ht_add_new_oetyre:hover{
+    background: #0091cd;
+}
+.list_oetyre_box {
+    display: inline-block;
+}
+.ht_oetyre_item{
+    float: none;
+}
+.ht_oetyre_item select{
+    height: auto !important;
+    padding: 5px;
+}
+.ht_oetyre_delete {
+    width: 16px;
+    height: 16px;
+    background: url("../images/delete.png") no-repeat center center;
+    cursor: pointer;
+    display: inline-block;
+    background-size: 16px;
+    margin: 10px;
+}
+.ht_oetyre_dd{
+    float: left;
+}
+.ht_oetyre_dd > div, .ht_oetyre_dd > span{
+    float: left;
+}
+.ht_oetyre_dd > span{
+    padding: 5px;
+}

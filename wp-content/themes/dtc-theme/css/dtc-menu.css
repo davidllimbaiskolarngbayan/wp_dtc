@@ -1,0 +1,48 @@
+/* Any sub-menu item that has its own children becomes a column with a heading; no CSS class needed in the menu editor. */
+.nav-destop > li > ul.sub-menu > li.menu-item-has-children {
+    float: left;
+    width: 22%;
+    max-width: none;
+    min-height: 0;
+    padding: 0 24px;
+    border-right: 0;
+}
+.nav-destop > li > ul.sub-menu > li.menu-item-has-children > a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+.nav-destop > li > ul.sub-menu > li.menu-item-has-children > a[href="#"] {
+    cursor: default;
+    pointer-events: none;
+}
+.nav-destop > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+    display: block !important;
+    position: static;
+    width: auto !important;
+    left: auto !important;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+.nav-destop > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li {
+    float: none;
+    width: auto;
+    max-width: none;
+    min-height: 0;
+    margin: 0 0 18px;
+    padding: 0;
+    border: 0;
+}
+/* Sub menu links use the regular body font, never bold. */
+.nav-destop ul.sub-menu li:not(.menu-item-has-children) > a {
+    font-family: "pt-sans-pro", "PT Sans", Arial, sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+}
+.nav-destop li ul li .ht_menu_description:empty { display: none; }

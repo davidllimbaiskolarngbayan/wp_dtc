@@ -1,0 +1,418 @@
+.findtyre_canvas{
+	overflow: hidden;
+	position: relative;
+	min-height: 30px;
+}
+.findtyre_canvas .ht_find_vehicle {
+	margin-top: 0;
+}
+
+#findtyre_loading{
+	position: absolute;
+	min-height: 50px;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	overflow: hidden;
+	/*
+	background-image: url('../images/transparent.gif');
+	background-color: transparent;
+	background-position: initial initial;
+	background-repeat: initial initial;
+	*/
+	background-color: #ffffff;
+}
+#findtyre_loading img{
+	width: auto;
+}
+#findtyre_output{
+	padding-top: 20px;
+}
+
+#findtyre_output:empty {
+	padding: 0;
+}
+
+.find-type .type-detail p.subdesc {
+	margin: 0 0 20px;
+}
+
+/*FindTyres*/
+span.vehslash{
+	font-weight: bold;
+	color: #013a82;
+	font-size: 30px;
+	height: 39px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px;
+}
+
+/*FindTyres by vehicle Dropdown*/
+.vehdd_vehicle{
+	background-color: #ffffff;
+	padding: 40px 10px;
+}
+select.vehcat{
+	width: 22%;
+	display:inline-block;
+	vertical-align: text-bottom;
+	white-space: nowrap;
+	padding: 0 37px 0 15px;
+}
+select.vehcat optgroup{
+	font-weight: bold;
+	font-style: italic;
+}
+/*FindTyres by vehicle (filter size)*/
+.vedd-vsize-box{
+	position: relative;
+	overflow: hidden;
+	padding: 10px;
+	width: 100%;
+	background-color: #ffffff;
+}
+.vsize-leftbox{
+	display: block;
+	float: left;
+	width: 35%;
+	padding-right: 15px;
+}
+.vsize-rightbox{
+	display: block;
+	float: right;
+	width: 65%;
+}
+.vsize-desc{
+	padding-bottom: 5px;
+}
+.vsize-selects .vsize-item{
+	font-weight: bold;
+	background: #fd0;
+	padding: 10px 10px 7px;
+	margin-bottom: 3px;
+	font-family: Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	border-bottom: 1px solid #6C5D00;
+	border-left: 1px solid #FFFF36;
+	border-top: 1px solid #FFFF6C;
+	border-right: 1px solid #A18C00;
+	cursor: pointer;
+	min-width: 150px;
+	display: block;
+	clear: both;
+	float: left;
+	min-width: 240px;
+}
+
+/*Sidebar: FindTyres by vehicle (filter size)*/
+.oesize-label{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.oesize-head{
+	clear: both;
+	float: left;
+	font-weight: bold;
+}
+.oesize-text{
+	clear: both;
+	float: left;
+	font-weight: bold;
+	color: #013A82;
+}
+div#sizedd_mobile{
+	background-color: #ffffff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+/* FindTyres by vehicle: result (OEtyre) */
+#findtyre_output #findtyre_result_oetyre {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #013a82;
+	margin-bottom: 30px;
+}
+#findtyre_output .box-colspace{
+	background: #ffffff;
+}
+#findtyre_output .box-colspace h2.title{
+	line-height: 0.9;
+	margin: 0;
+}
+#findtyre_output .box-colspace h2.title a{
+	background-color: #013a82;
+	color: #ffffff;
+}
+#findtyre_output .box-colspace h2.box-open a{
+	background: url(../images/arrow_white_up.png) right 30px center no-repeat #013a82;
+	border: none;
+}
+#findtyre_output .box-colspace h2.box-close a{
+	background: url(../images/arrow_white_down.png) right 30px center no-repeat #013a82;
+	border: none;
+}
+#findtyre_output .box-colspace-content{
+	padding: 0;
+}
+#findtyre_output .box-colspace-content a{
+	line-height: inherit;
+}
+#findtyre_output .box-colspace-desc{
+	padding: 10px 30px;
+	background-color: #efefef;
+}
+#findtyre_output .box-colspace-content-result{
+	margin-top: -2px;
+}
+#findtyre_output .box-colspace-result{
+
+}
+#noresult-oetyre{
+padding: 20px 0;
+margin: 0;
+}
+/* Other */
+#findtyre_result_other h2.title{
+	font-size: 26px;
+	font-weight: bold;
+
+}
+
+/*FindTyres by size Dropdown*/
+.vehdd_size{
+	background-color: #ffffff;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+}
+.vehdd_size .sizefield{
+	overflow: hidden;
+	position: relative;
+	padding: 40px 10px;
+	width: 65%;
+	float: left;
+	padding-top: 60px;
+}
+.vehdd_size .sizeoption{
+	overflow: hidden;
+	position: relative;
+	padding: 40px 10px;
+	width: 35%;
+	float: left;
+	background-color: #d4d4d4;
+	text-align: left;
+}
+
+.veh_size_form .sizebox_1, .veh_size_form .sizebox_2, .veh_size_form .sizebox_3{
+	width: 30%;
+	background: url("../images/tyres/no_1.jpg") left top no-repeat;
+	display: block;
+	float: left;
+	padding-left: 40px;
+}
+.veh_size_form .sizebox_2{background: url("../images/tyres/no_2.jpg") left top no-repeat;}
+.veh_size_form .sizebox_3{background: url("../images/tyres/no_3.jpg") left top no-repeat;}
+.veh_size_form span.vehslash{float: left;}
+
+select.vehsize{
+	width: 100%;
+	display:inline-block;
+	vertical-align: text-bottom;
+	white-space: nowrap;
+	padding: 0 37px 0 15px;
+}
+select.vehsize_opt{
+	width: 45%;
+}
+
+.findtyre_sizeimg{
+	position: relative;
+	overflow: hidden;
+}
+.findtyre_sizeimg img{
+	width: auto;
+}
+.findtyre_sizeimg .box_left, .findtyre_sizeimg .box_right{
+	width: 50%;
+	float: left;
+}
+.findtyre_sizeimg .img_or{
+	z-index: 99;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -29px;
+	margin-left: -29px;
+}
+.findtyre_sizeimg .img_or img{
+	width: auto;
+}
+
+/*Compare Page*/
+.content-compare .compare-image-thumbnail {
+	min-height: 110px;
+}
+
+.find-type .type-detail .btn {
+	min-width: 170px;
+}
+
+/*RunOnFlat:Filter*/
+.rof_box{
+	padding: 0 0 5px 0;
+}
+.rof_box label{
+	font-weight: normal;
+	color: #013A82;
+	cursor: pointer;
+}
+/*RunOnFlat:Grid View*/
+span.rof-logo{}
+span.rof-logo div{
+	padding-left: 4px;
+	font-size: 10px;
+	font-family: Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+	letter-spacing: 0;
+}
+span.rof-logo img{
+	height: 40px;
+}
+.itemtoleft > span{float: left}
+
+/*RunOnFlat:SingleTyrePage*/
+.content-type-detail .icon-box span.rof-logo img{
+	max-width: none;
+}
+
+/* Single tyre */
+.single-oetyre-box{
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: -30px;
+	padding-left: 100px;
+	background: url(../images/tyres/oe_icon_50.png) left 35px top 35px no-repeat #ffffff;
+}
+.single-oetyre-desc{}
+.single-oetyre-desc a{
+	color: #195d97;
+	text-decoration: underline;
+}
+.single-oetyre-model{
+	overflow: hidden;
+	padding-top: 10px;
+}
+.single-oetyre-model .label-vehicle, .single-oetyre-model .label-cates{
+	float: left;
+}
+.single-oetyre-model .label-cates{
+	font-weight: bold;
+}
+
+
+@media (max-width: 500px){
+	.find-type .type-detail p.subdesc {
+		font-size: 14px;
+		margin: 10px 0;
+	}
+}
+@media all and (max-width: 767px){
+
+	.find-type .type-detail .btn {
+		min-width: auto;
+	}
+
+	.find-type .type-detail p.subdesc {
+		font-size: 14px;
+		margin: 10px 0;
+	}
+
+	/*FindTyres Dropdown*/
+	span.vehslash{ display: none;}
+
+	select.vehcat{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	/*FindTyres by size Dropdown*/
+	.vehdd_size{
+		display: block;
+	}
+	.vehdd_size .sizefield, .vehdd_size .sizeoption{
+		width: 100%;
+		padding-top: 40px;
+	}
+	.veh_size_form .sizebox_1, .veh_size_form .sizebox_2, .veh_size_form .sizebox_3{
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
+	.findtyre_sizeimg .box_left, .findtyre_sizeimg .box_right {
+		width: 100%;
+	}
+	select.vehsize_opt{
+		width: 100%;
+	}
+
+
+	/*FindTyres by vehicle (filter size)*/
+	.vedd-vsize-box{
+		padding: 10px 0;
+	}
+	.vsize-leftbox{
+		width: 100%;
+	}
+	.vsize-rightbox{
+		width: 100%;
+	}
+	.vsize-desc{
+		padding: 5px 10px;
+	}
+	.vsize-selects .vsize-item{
+		padding: 10px 33px 10px 10px;
+		margin-bottom: 5px;
+		text-align: left;
+		background: url(../images/right.png) right 10px center no-repeat #fd0 !important;
+		border: 0;
+		width: 100%;
+	}
+	.vsize-image{
+		padding-top: 10px;
+	}
+	.vsize-leftbox{
+		padding-right: 0;
+	}
+	.vsize-rightbox .vsize-desc{
+		padding-top: 15px;
+	}
+	.oesize-label{
+		margin-bottom: 10px;
+	}
+
+
+	/* Single Tyre */
+	.single-oetyre-box {
+		/*background-color: #efefef;*/
+		border-bottom: solid 1px #efefef;
+	}
+	.single-oetyre-model .label-vehicle, .single-oetyre-model .label-cates{
+		float: left;
+		clear: both;
+	}
+	.single-oetyre-desc > div:nth-child(2){
+		margin-top: 15px;
+	}
+	.single-oetyre-model{
+		padding-top: 15px;
+	}
+
+
+}

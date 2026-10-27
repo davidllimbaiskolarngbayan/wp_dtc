@@ -1,0 +1,720 @@
+{
+	"metadata": [
+		{
+			"storename": "MAXIPURA SDN BHD",
+			"address": "Lot PT 2495, Jalan P16 Putrajaya, 62150 Putrajaya, W.Persekutuan.",
+			"state": "Wilayah Persekutuan",
+			"phone": "03-55242155",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 16:00 (Sun)"
+		},
+		{
+			"storename": "CHIAN SOON MOTORSPORT SDN BHD",
+			"address": "NO. 4, JALAN PERUSAHAAN KULIM, KAWASAN PERUSAHAAN KULIM, 09000 KULIM KEDAH",
+			"state": "Kedah",
+			"phone": "04-4030938",
+			"openinghours": "09:00 - 19:00 (Mon-Sat) 9:30 - 17:00 (Sun)"  
+		},
+		{
+			"storename": "SYNC TYRE SERVICE CENTRE",
+			"address": "18, Jalan Perubatan 2, Pandan Indah, 55100 Pandan Indah, Kuala Lumpur",
+			"state": "Kuala Lumpur",
+			"phone": "016-6672263",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "COZ RACING WHEELS AND TIRES (M) SDN BHD",
+			"address": "5, Jalan Gombak, Taman Tai Onn, 53000 Kuala Lumpur.",
+			"state": "Kuala Lumpur",
+			"phone": "012-7379022",
+			"openinghours": "09:00 - 19:00 (Mon-Sat) 10:00 - 15:00 (Sun)"
+		},
+		{
+			"storename": "SP LIM AUTOCARE SDN BHD",
+			"address": "2, Jalan AU 1A/4A, Taman Keramat Permai, 54200 Kuala Lumpur.",
+			"state": "Kuala Lumpur",
+			"phone": "03-42523213",
+			"openinghours": "08:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "BL AUTO CAR CARE & TYRES",
+			"address": "3-68A, Jalan Desa 2/3, Desa Aman Puri Kepong, 52100 Kuala Lumpur.",
+			"state": "Kuala Lumpur",
+			"phone": "012-322 7870",
+			"openinghours": "09:00 -19.30 (Mon-Sat)"
+		},
+		{
+			"storename": "PIT STOP AUTO GARAGE SDN BHD",
+			"address": "10-1, Jalan Damar SD 15/1, Bandar Sri Damansara, 52200 Kuala Lumpur.",
+			"state": "Kuala Lumpur",
+			"phone": "03-62779905",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "TOP YEAR AUTO SDN BHD",
+			"address": "No 46, Jalan Manis 3, Taman Segar, 56100 Kuala Lumpur.",
+			"state": "Kuala Lumpur",
+			"phone": "03-91304646",
+			"openinghours": "09:30 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SILICON AUTO (LEN SEN) SDN BHD",
+			"address": "No.95-G, Jalan 1/154 Tmn Bukit Anggerik, Cheras 56000 Kuala Lumpur, Wilayah Persekutuan.",
+			"state": "Kuala Lumpur",
+			"phone": "03-91003073",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SILICON AUTO (ALAM JAYA) SDN BHD",
+			"address": "No.1, Jalan Emas 6 Taman Emas, Batu 8 1/2 43200 Cheras, Selangor.",
+			"state": "Kuala Lumpur",
+			"phone": "03-90801817",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "TYREPRO (KL) SDN BHD",
+			"address": "No 1, Jalan Kuchai Jaya 1, Taman Kuchai Jaya, Jalan Kuchai Lama, 58200 Kuala Lumpur.",
+			"state": "Kuala Lumpur",
+			"phone": "016-7698811",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SYKT CHUAN ANN TAYAR & BATERI SDN BHD",
+			"address": "2, Lorong Ara Kiri 3, Lucky Garden Bangsar, 59100 Kuala Lumpur, W.Persekutuan.",
+			"state": "Kuala Lumpur",
+			"phone": "012-2656360",
+			"phone2": "012-2100071",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "TOP SPEED CAR CARE FOUR SDN BHD",
+			"address": "76, Jalan Lazat 2, Taman Gembira, 58200 Kuala Lumpur, W.Persekutuan.",
+			"state": "Kuala Lumpur",
+			"phone": "016-3374204",
+			"openinghours": "08:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "WIN TING AUTO GARAGE SDN BHD",
+			"address": "1-1, Jalan PJU 1/3D, Sunwaymas Commercial Centre, 47301 Petaling Jaya, Selangor.",
+			"state": "Selangor",
+			"phone": "017-2039591",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "RACING Z TYRE SERVICE (PJ) SDN BHD",
+			"address": "No 12C, Jalan 225, Section 51A, 46100 Petaling Jaya, Selangor.",
+			"state": "Selangor",
+			"phone": "03-79322611",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "HLC TYRE & AUTO SERVICES SDN BHD",
+			"address": "No 59 G, Jalan PJU 5/20 The Strand, Kota Damansara, 47810 Petaling Jaya, Selangor.",
+			"state": "Selangor",
+			"phone": "03-61589925",
+			"phone2": "012-358 9077",
+			"openinghours": "09:30 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "CNY TYRE & AUTO SERVICE SDN BHD",
+			"address": "2-G, Jalan Bulan KU 5/K, Sek U5 Bandar Pinggiran Subang, 40150 Shah Alam, Selangor.",
+			"state": "Selangor",
+			"phone": "03-78450919",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "HONG LAP (KINRARA) AIR-COND AUTO ACCESSORIES S/B",
+			"address": "1, Jalan BK 4/2A Bandar Kinrara 47100 Puchong, Selangor.",
+			"state": "Selangor",
+			"phone": "03-80790558",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "WENG HENG BP TYRE & AUTO SERVICE SDN BHD",
+			"address": "53, Jalan BP5 Bandar Bukit Puchong, 47100 Puchong, Selangor.",
+			"state": "Selangor",
+			"phone": "03-80684375",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "TOP SPEED CAR CARE ELEVEN SDN BHD",
+			"address": "58, Jalan Puteri 5/2, Bandar Puteri , 47100 Puchong, Selangor.",
+			"state": "Selangor",
+			"phone": "03-80631233",
+			"phone2": "016-3374211",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "TOP SPEED CAR CARE EIGHT SDN BHD",
+			"address": "1 & 3, Jalan Pentadbir U1/30, Hicom Glenmarie Industrial Park, 40150 Shah Alam, Selangor.",
+			"state": "Selangor",
+			"phone": "03-55695905",
+			"phone2": "016-3374213",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "E.D. TAYAR DAN BATERI SDN BHD",
+			"address": "18 & 20, Jalan 24/36 Seksyen 24, 40400 Shah Alam, Selangor.",
+			"state": "Selangor",
+			"phone": "03-55484088",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "KIAN SING TYRE SERVICE (U5) SDN BHD",
+			"address": "No 2, Jalan Bumi AW U5/AW, Seksyen U5, 40150 Shah Alam, Selangor.",
+			"state": "Selangor",
+			"phone": "03-78313628",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "HENG HONG TYRE (SUBANG) SDN BHD",
+			"address": "No 12, Jalan SP 4/2, Taman Subang Perdana, Seksyen U3, 40150 Shah Alam.",
+			"state": "Selangor",
+			"phone": "03-78327338",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "MAXIPURA SDN BHD",
+			"address": "44, Jalan Badminton 13/29, Seksyen 13, 40100 Shah Alam.",
+			"state": "Selangor",
+			"phone": "03-55242155",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 16:00 (Sun)"
+		},
+		{
+			"storename": "TOP SPEED AUTO CARE SDN BHD",
+			"address": "8A, Jalan USJ 10/1H UEP Subang Jaya, 47610 Petaling Jaya, Selangor.",
+			"state": "Selangor",
+			"phone": "03-80238531",
+			"phone2": "016-3374210",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "EVERSTARS TYRE & AUTOCARE SDN BHD",
+			"address": "No 148, Persiaran Raja Muda Musa,Telok Gadong, 42000 Klang, Selangor.",
+			"state": "Selangor",
+			"phone": "03-33243342",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "BAN HOOI TYRE SDN BHD (HQ)",
+			"address": "2055-2061, Batu 1 Jalan Kapar, 41400 Klang, Selangor.",
+			"state": "Selangor",
+			"phone": "03-33423146",
+			"openinghours": "09:15 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SILICON AUTO (BANGI) SDN BHD",
+			"address": "No.49, Jalan 8/1 Seksyen 8, 43650 Bdr Baru Bangi, Selangor.",
+			"state": "Selangor",
+			"phone": "03-89202284",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "FREEDOM AUTO SERVICE CENTRE",
+			"address": "1G, Jalan Hijau 5/2 Green Valley Park, Tasik Puteri, 48020 Rawang, Selangor",
+			"state": "Selangor",
+			"phone": "03-60341216",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "AUTO JAYA TYRE & CAR SERVICE SDN BHD",
+			"address": "No 1, Jalan Jejarum 3D, Bandar Bukit Beruntung, 43300 Rawang, Selangor.",
+			"state": "Selangor",
+			"phone": "03-60281577",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "VOZ RACING PLT",
+			"address": "No 1, Jalan 1, Taman Penggawa, 45000 Kuala Selangor, Selangor Darul Ehsan.",
+			"state": "Selangor",
+			"phone": "016-5656596",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "KONG CAR CARE CENTRE",
+			"address": "Lot 1357, Batu 16 Jalan Semenyih, 43000 Kajang, Selangor.",
+			"state": "Selangor",
+			"phone": "03-87407532",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 16:00 (Sun)"
+		},
+		{
+			"storename": "FOC TYRE SDN BHD",
+			"address": "No 19, Jln Bandar Rawang 15, Pusat Bandar Rawang, 48000 Rawang, Selangor.",
+			"state": "Selangor",
+			"phone": "016-6206615",
+			"openinghours": "09:00 - 19:00 (Mon-Sat) 09:00 - 17:30 (Sun)"
+		},
+		{
+			"storename": "PIAU JOON TYRE TWO SDN BHD",
+			"address": "Lot 264, No.38, Jln Cheras Perdana BT 10 1/2, Jalan Cheras, 43200 Kajang, Selangor.",
+			"state": "Selangor",
+			"phone": "012-2033868",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "AUTOHAUS KL",
+			"address": "23, Jalan 7/7C, Seksyen 7, 43650 Bandar Baru Bangi Selangor.",
+			"state": "Selangor",
+			"phone": "011-12186846",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "AT & T TAYAR SDN BHD",
+			"address": "Lot 2585, Batu 32 1/4, Jalan Banting, 43800 Dengkil, Selangor.",
+			"state": "Selangor",
+			"phone": "019-6897968",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "HP TYRE AUTO SERVICES SDN BHD",
+			"address": "No 1&3 Jalan Mahagoni 7/1, Seksyen 4 Bandar Utama Batang Kali, 44300 Batang Kali Selangor.",
+			"state": "Selangor",
+			"phone": "016-2373559",
+			"openinghours": "09:30 - 20:00 (Mon-Sat) 09:30 - 17:00 (Sun)"
+		},
+		{
+			"storename": "TOP SPEED CAR CARE FIVE SDN BHD",
+			"address": "1, Jalan SS5B/6 Kelana Jaya, 47301 Petaling Jaya, Selangor.",
+			"state": "Selangor",
+			"phone": "016-3374205",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "YL AUTO SERVICES",
+			"address": "16, Jalan Putra Mahkota 7/5A Seksyen 7, Putra Heights, 47620 Subang Jaya, Selangor.",
+			"state": "Selangor",
+			"phone": "03-51911628",
+			"openinghours": "09:00 - 18:00 (Mon-Fri)"
+		},
+		{
+			"storename": "LIM CAR SERVICE & TYRE",
+			"address": "1-H-GF, Block H, Spring Court, No 2 Jalan Dagang Mas 2, Taman Mas, 47100 Puchong, Selangor.",
+			"state": "Selangor",
+			"phone": "012-3112405",
+			"openinghours": "09:30 - 19:30 (Mon-Sat)"
+		},
+		{
+			"storename": "ACE PERFORMANCE WHEEL",
+			"address": "No 17G / No 36G, Kemaris Avenue, Jalan Kawasan Perindustrian Rawang, Sg Bakau, 48000 Rawang, Selangor.",
+			"state": "Selangor",
+			"phone": "012-7195958",
+			"openinghours": "09:30 - 19:30 (Mon-Sun)"
+		},
+		{
+			"storename": "FU SHENG",
+			"address": "28, Jalan Ros Merah Dua/2 Taman Johor Jaya, 81100 Johor Bahru Johor.",
+			"state": "Johor",
+			"phone": "012-7602889",
+			"openinghours": "09:30 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "SAYHENZ TYRE & BATTERY SERVICE CENTRE",
+			"address": "1, MYP 132, Taman Sri Bakri 1, Jalan Bakri, 84200 Muar, Johor.",
+			"state": "Johor",
+			"phone": "012-7317882",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "TSHIHENZ TYRE & BATTERY",
+			"address": "26, Jalan Mengkudu Taman Makmur, 83000 Batu Pahat, Johor.",
+			"state": "Johor",
+			"phone": "013-7788081",
+			"openinghours": "09:00 - 19:00 (Mon-Sat) 10:00 - 14:00 (Sun)"
+		},
+		{
+			"storename": "MAXIPURA SDN BHD",
+			"address": "No 42, Jalan Siantan 1, Taman Kemas, 81200 Tampoi, Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "017-7318042",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "NEW HOCK GI HIN BATERI & TAYAR (HQ)",
+			"address": "79, Jalan Sekolah Chong Hwa, 86000 Kluang, Johor.",
+			"state": "Johor",
+			"phone": "013-723 8368",
+			"openinghours": "09:30 - 18:30 (Mon-Sat)"
+		},		
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "90, Jalan Tampoi, 81200 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-335 8606",
+			"phone2": "018-664 8899",
+			"openinghours": "08:30 - 17:30 (Mon-Sat)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "1&3, Jalan Perisai Taman Sri Tebrau, 80050 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-3314521",
+			"phone2": "018-6638 899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 17:00 (Sun)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "L1-1, Jalan Suria 19 Taman Putera, 81100 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-333 8166",
+			"phone2": "018-6638 899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 17:00 (Sun)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "40, Jalan Sulam Taman Sentosa, 80150 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-333 4207",
+			"phone2": "018-6638 899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "No.2, Jalan Gaya 24 Taman Gaya, 81100 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-8619124",
+			"phone2": "018-6638899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 17:00 (Sun)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "2&4, Jalan Laksamana 2, Taman Ungku Tun Aminah, 81300 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-5569131",
+			"phone2": "018-6638899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "56 & 58, Jalan Ara 1 Taman Rinting Masai, 81750 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-2522686",
+			"phone2": "018-6638899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "126, Jalan Nb2 1/4, Taman Nusa Bestari 2, 81300 Skudai, Johor",
+			"state": "Johor",
+			"phone": "07-5201467",
+			"phone2": "018-6638899",
+			"openinghours": "09:00 - 18:30 (Mon-Sun)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "108, Jalan Sri Pelangi, Taman Pelangi, 80400 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-3326850",
+			"phone2": "018-6638899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 17:00 (Sun)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "21, Jalan Molek 2/3, Taman Molek, 81100 Johor Bahru, Johor.",
+			"state": "Johor",
+			"phone": "07-3648572",
+			"phone2": "018-6638899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "HAWK TAYAR SDN BHD",
+			"address": "Lot PTD 8932 (Behind Shell) Jalan Badik 1, Taman Sri Tebrau, 80050 Johor Bahru, Johor",
+			"state": "Johor",
+			"phone": "07-334 6276",
+			"phone2": "018-6638899",
+			"openinghours": "09:00 - 18:00 (Mon-Sat) 09:00 - 17:00 (Sun)"
+		},
+		{
+			"storename": "DEK HUAT TYRE & BATTERY S/B (HQ)",
+			"address": "118, Jalan Laksamana Cheng Ho, 75000 Melaka, Melaka.",
+			"state": "Melaka",
+			"phone": "016-3735627",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "DH TYRE SERVICE SDN BHD",
+			"address": "G16, Blok A5, Jalan Rahmat 1, Taman Malim Jaya, 75250 Melaka.",
+			"state": "Melaka",
+			"phone": "016-3735627",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "L.H. AUTOCARE TYRES & BATTERIES SDN BHD",
+			"address": "76, Jalan Taming Sari Off Jalan Mata Kuching, 75400 Melaka, Melaka.",
+			"state": "Melaka",
+			"phone": "012-6146355",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SLWH TAYAR TRADING SDN BHD",
+			"address": "B1 & B2, Jalan Tuanku Antah, 70100 Negeri Sembilan",
+			"state": "Negeri Sembilan",
+			"phone": "012-3798962",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "TONG HUAT TYRE & BATTERY SDN BHD",
+			"address": "270, Jalan Gemas Tampin Tengah, 73000 Tampin, Negeri Sembilan.",
+			"state": "Negeri Sembilan",
+			"phone": "012-2369168",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SPEED CITY TYRE & TRADING SDN BHD",
+			"address": "No.309-310, Lorong Matahari 1/2 Matahari Heights, 70450 Senawang,Negeri Sembilan.",
+			"state": "Negeri Sembilan",
+			"phone": "012-6511960",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "KUALA KANGSAR TYRE SERVICE CENTRE",
+			"address": "10, Taman Indah Jalan Taiping, 33000 Kuala Kangsar, Perak.",
+			"state": "Perak",
+			"phone": "05-7762289",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "EXPRESSWAY TAYAR SERVIS SDN BHD",
+			"address": "2-4, Jalan Jubilee, 30300 Ipoh, Perak.",
+			"state": "Perak",
+			"phone": "016-5202014",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SYARIKAT TAYAR & BATERI USAHA JAYA",
+			"address": "50, Jalan Sultan Idris Shah, 30000 Ipoh, Perak.",
+			"state": "Perak",
+			"phone": "016-5514608",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "KT ADVANCE SDN BHD",
+			"address": "226, Commercial Building Jalan Tasik Barat 1, Taman Anda 31400, Ipoh Perak.",
+			"state": "Perak",
+			"phone": "016-5213881",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "CHIAN SOON TYRE & BATTERY SDN BHD",
+			"address": "2421-2423, Jalan Kulim, 14000 Bukit Mertajam, Penang.",
+			"state": "Pulau Pinang",
+			"phone": "04-5386034",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "NT WINNER TYRES SDN BHD",
+			"address": "11A & 15, Jalan Besar Taman Perindustrian Nibong Tebal, 14300 Nibong Tebal Penang.",
+			"state": "Pulau Pinang",
+			"phone": "019-4495070",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "CHANG SOON TYRE SERVICE SDN BHD",
+			"address": "110&112, Persiaran Bayan Satu Taman Tunas Muda Sg ara, 11900 Bayan Lepas, Penang.",
+			"state": "Pulau Pinang",
+			"phone": "016 - 4191943",
+			"openinghours": "09:00 - 19:00 (Mon-Sat) 10:00 - 14:00 (Sun)"
+		},
+		{
+			"storename": "CHIAN SOON TYRES & AUTO SDN BHD (HQ)",
+			"address": "2, Lrg Ind Ringan, P'tang Tinggi 1 Kaw. Ind Ringan Permatang Tinggi, 14000 Bukit Mertajam, Penang.",
+			"state": "Pulau Pinang",
+			"phone": "017-7078638",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "SIANG SIN TYRE (BAGAN AJAM) SDN BHD",
+			"address": "803, Jalan Bagan Ajam Taman Emas, 13000 Butterworth, Penang.",
+			"state": "Pulau Pinang",
+			"phone": "016-4417891",
+			"openinghours": "09:00 - 18:00 (Sat-Thurs)"
+		},
+		{
+			"storename": "SIANG SIN TYRE (JLN RAJA UDA) S/B",
+			"address": "5301, Jalan Raja Uda, 12300 Butterworth Penang.",
+			"state": "Pulau Pinang",
+			"phone": "019-4663811",
+			"openinghours": "09:00 - 18:00 (Sat-Thurs)"
+		},
+		{
+			"storename": "KB TYRES SERVICE CENTRE",
+			"address": "1315, Lorong Malinja 1 Taman Sepakat, 13200 Kepala Batas, Penang.",
+			"state": "Pulau Pinang",
+			"phone": "012-4681199",
+			"openinghours": "09:00 - 18:00 (Sat-Thurs)"
+		},
+		{
+			"storename": "ENG SIN TAYAR SDN BHD (HQ)",
+			"address": "104, Jalan Sungai Pinang, 10150 Penang.",
+			"state": "Pulau Pinang",
+			"phone": "016-4028017",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "MARVEL TYRE PLT",
+			"address": "No 26 & 28, Jalan Star Avenue, Pusat Perniagaan Star Avenue, 14100 Simpang Ampat, Penang.",
+			"state": "Pulau Pinang",
+			"phone": "016-5671007",
+			"openinghours": "09:00 - 19:00 (Mon-Sat) 09:30 - 16:30 (Sun)"
+		},
+		{
+			"storename": "CHUN SENG TAYAR SDN BHD (HQ)",
+			"address": "31,Taman Kampian Jalan Sekerat, 08000 Sungai Petani, Kedah.",
+			"state": "Kedah",
+			"phone": "012-5781776",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "PUSAT TAYAR DAN BATERI PENDANG",
+			"address": "No 1A, Taman Sri Changlun, 06010 Changlun, Kedah.",
+			"state": "Kedah",
+			"phone": "016-5558633",
+			"openinghours": "09:00 - 18:00 (Sat-Thurs)"
+		},
+		{
+			"storename": "PUSAT TAYAR DAN BATERI ZHUN SENG",
+			"address": "15, Jalan Bakar Arang, 08000 Sungai Petani, Kedah.",
+			"state": "Kedah",
+			"phone": "018-9744650",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "PUSAT TAYAR DAN BATERI PENDANG",
+			"address": "B6, Taman Setar 2, Off Simpang Kuala, 05400 Alor Setar, Kedah.",
+			"state": "Kedah",
+			"phone": "019-7829789",
+			"openinghours": "09:00 - 18:00 (Sat-Thurs)"
+		},
+		{
+			"storename": "PROWHEELS (M) SDN BHD",
+			"address": "No 33, Kampung Kuala Sungai Mukim Kubang Rotan, 06250 Alor Setar, Kedah.",
+			"state": "Kedah",
+			"phone": "014-6496846",
+			"openinghours": "09:00 - 19:00 (Mon-Sat)"
+		},
+		{
+			"storename": "SYARIKAT TAYAR UTARA PERLIS",
+			"address": "80, Taman Sena Indah Jalan Kangar Arau, Simpang Tiga, 01000 Kangar Perlis.",
+			"state": "Perlis",
+			"phone": "012-5996261",
+			"openinghours": "09:00 - 18:00 (Sat-Thurs)"
+		},
+		{
+			"storename": "JERANTUT BSH TYRE SERVICE SDN BHD",
+			"address": "37 & 38, Lorong Wawasan 1/2, 27000 Jerantut, Pahang.",
+			"state": "Pahang",
+			"phone": "016-9516625",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "TL TYRES & BATTERIES SDN BHD",
+			"address": "A-5496, Jalan Beserah, 25300 Kuantan, Pahang.",
+			"state": "Pahang",
+			"phone": "017-9219299",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "SYARIKAT POH HING",
+			"address": "92, Jalan Lipis, 27600 Raub, Pahang.",
+			"state": "Pahang",
+			"phone": "010-9068836",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "BERA TYRE SERVICE SDN BHD (HQ)",
+			"address": "24, Taman Desa Aman, 28300 Triang, Pahang.",
+			"state": "Pahang",
+			"phone": "019-9868425",
+			"openinghours": "09:00 - 18:00 (Mon-Sat)"
+		},
+		{
+			"storename": "C ONE TYRE SERVICE SDN BHD",
+			"address": "28, Taman Medan Masyhur IM2, 25200 Kuantan, Pahang.",
+			"state": "Pahang",
+			"phone": "012-9892822",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "JERANTUT BSH TYRE SERVICE SDN BHD (HQ)",
+			"address": "S-75, Taman Intan 2, 27000 Jerantut, Pahang.",
+			"state": "Pahang",
+			"phone": "016-9516625",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "JG PUSAT OTOMOBIL (KUANTAN) S/B",
+			"address": "Lot 6812 & 6813 Jalan Dato Wong Ah Jang, 25100 Kuantan, Pahang.",
+			"state": "Pahang",
+			"phone": "013-9300777",
+			"openinghours": "09:30 - 19:00 (Mon-Sat) 09:30 - 14:00 (Sun)"
+		},
+		{
+			"storename": "JG TYRE SDN BHD",
+			"address": "JS-25, Jalan Air Putih Semambu, 25300 Kuantan, Pahang.",
+			"state": "Pahang",
+			"phone": "013-9300777",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "BAN SOON HENG TYRE SERV CENTRE",
+			"address": "S126, Taman Intan 3, 27000 Jerantut, Pahang.",
+			"state": "Pahang",
+			"phone": "016-9516625",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "BERA TYRE SERVICE SDN BHD",
+			"address": "1, Jalan Gajah, 28300, Triang, Pahang",
+			"state": "Pahang",
+			"phone": "019-9868425",
+			"openinghours": "09:00 - 18:30 (Mon-Sat)"
+		},
+		{
+			"storename": "APSHA MOTOR & TYRE SERVICE",
+			"address": "KM 98, Simpang Paka Lebuhraya Jerangau-Jabur, 23400 Dungun, Terengganu",
+			"state": "Terangganu",
+			"phone": "019-9932697",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "ABI TEKNIKAL SERVIS",
+			"address": "Lot 6865, Kampung Bukit Tok Beng Jalan Seberang Takir, 21000 Kuala Terengganu, Terengganu.",
+			"state": "Terangganu",
+			"phone": "019-9534450",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "APSHA MOTOR & TYRE SERVICE",
+			"address": "Lot 6037, Jalan Cheneh, 24000 Bandar Baru Cheneh, Terengganu.",
+			"state": "Terangganu",
+			"phone": "019-9932697",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},		
+		{
+			"storename": "ABI TEKNIKAL SERVIS (HQ)",
+			"address": "7, Lot 25829, Tmn Sri Noor Jalan Gong Badak, 21300 Kuala Terengganu, Terengganu.",
+			"state": "Terangganu",
+			"phone": "019-9534450",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "HOWA HONG (KB) SDN BHD (HQ)",
+			"address": "Lot 115-117, Jalan Che Su, 15000 Kota Bahru, Kelantan.",
+			"state": "Kelantan",
+			"phone": "014-8065000",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "NUSAJAZA TYRE CENTRE SDN BHD",
+			"address": "2172, Seksyen 67 Jalan Kuala Krai, 15050 Kota Bahru, Kelantan.",
+			"state": "Kelantan",
+			"phone": "013-9654444",
+			"openinghours": "09:00 - 18:00 (Sat-Thu)"
+		},
+		{
+			"storename": "CHOP KIAN LEONG TAYAR SDN BHD",
+			"address": "Lot 1836, Paya Bemban, Jalan Hospital, 15200 Kota Bahru, Kelantan.",
+			"state": "Kelantan",
+			"phone": "018-3654709",
+			"openinghours": "09:00 - 18:00 (Mon-Sun)"
+		}
+	]
+}

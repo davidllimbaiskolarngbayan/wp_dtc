@@ -1,0 +1,131 @@
+/* DTC footer and legal information pages. */
+.dtc-footer {
+    margin-top: 40px;
+    padding: 72px 0 24px;
+    border-top: 5px solid #fbbd00;
+    background: #000;
+    color: #fff;
+}
+.dtc-footer__container {
+    width: min(100% - 40px, 1460px);
+    margin: 0 auto;
+}
+.dtc-footer__grid {
+    display: grid;
+    grid-template-columns: minmax(250px, 2fr) repeat(4, minmax(125px, 1fr));
+    gap: 36px;
+    min-height: 280px;
+}
+.dtc-footer__brand { align-self: start; }
+.dtc-footer__navigation { grid-column: span 4; }
+.dtc-footer__logo { display: block; width: 150px; height: auto; margin-bottom: 20px; }
+.dtc-footer__brand h2 {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: clamp(28px, 3vw, 42px);
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+}
+.dtc-footer__brand p { margin: 0 0 28px; color: #fff; }
+.dtc-footer__button {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    border-radius: 999px;
+    background: #fbbd00;
+    color: #101010;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dtc-footer__button:hover, .dtc-footer__button:focus-visible { background: #ffd34f; color: #101010; }
+.dtc-footer__menu,
+.dtc-footer__menu .sub-menu { margin: 0; padding: 0; list-style: none; }
+.dtc-footer__menu {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+.dtc-footer__menu > li > a {
+    display: inline-block;
+    margin: 4px 0 24px;
+    color: #fbbd00;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.dtc-footer__menu .sub-menu { display: grid; gap: 16px; }
+.dtc-footer__menu .sub-menu a { color: #fff; text-decoration: none; }
+.dtc-footer__menu .sub-menu a:hover, .dtc-footer__menu .sub-menu a:focus-visible { color: #fbbd00; text-decoration: underline; }
+.dtc-footer__bottom {
+    display: grid;
+    grid-template-columns: minmax(250px, 2fr) repeat(4, minmax(125px, 1fr));
+    align-items: center;
+    gap: 18px 30px;
+}
+.dtc-footer__copy { margin: 0; color: #fff; font-size: 14px; font-weight: 600; }
+.dtc-footer__legal-links { grid-column: 2 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.dtc-footer__legal-links a { color: #fff; font-size: 14px; text-decoration: none; }
+.dtc-footer__legal-links a:not(:last-child)::after { content: "|"; margin-left: 8px; color: #fff; }
+.dtc-footer__legal-links a:hover, .dtc-footer__legal-links a:focus-visible { color: #fbbd00; text-decoration: underline; }
+
+body.dtc-legal-page-view,
+body.dtc-legal-page-view #wapper.main-wrapper,
+body.dtc-legal-page-view .dtc-legal-page { background: #fff !important; }
+.dtc-legal-page { min-height: 55vh; color: #222; }
+.dtc-legal-page__layout {
+    display: grid;
+    grid-template-columns: minmax(190px, 250px) minmax(0, 1fr);
+    gap: clamp(32px, 4vw, 72px);
+    width: min(100% - 40px, 1460px);
+    margin: 0 auto;
+    padding: 64px 0 72px;
+}
+.dtc-legal-page__nav { border-right: 1px solid #dedede; }
+.dtc-legal-page__nav ul { display: grid; gap: 4px; margin: 0; padding: 0 24px 0 0; list-style: none; }
+.dtc-legal-page__nav a {
+    display: block;
+    padding: 12px 16px;
+    color: #344054;
+    text-decoration: none;
+}
+.dtc-legal-page__nav .is-current a {
+    border-right: 5px solid #123fba;
+    color: #123fba;
+    font-weight: 700;
+}
+.dtc-legal-page__nav a:hover, .dtc-legal-page__nav a:focus-visible { color: #123fba; text-decoration: underline; }
+.dtc-legal-page__content { max-width: 1000px; }
+.dtc-legal-page__content h1 { margin: 0 0 40px; color: #171717; font-size: clamp(32px, 4vw, 46px); line-height: 1.15; }
+.dtc-legal-page__content h2 { margin: 24px 0 10px; color: #222; font-size: 18px; font-weight: 700; }
+.dtc-legal-page__content p { margin: 0 0 16px; color: #333; font-size: 16px; line-height: 1.65; }
+.dtc-legal-page__content > :first-child { margin-top: 0; }
+.dtc-legal-page__content a { color: #123fba; text-decoration: underline; }
+.dtc-legal-page__content a:focus-visible { outline: 3px solid #123fba; outline-offset: 3px; }
+
+@media (max-width: 1000px) {
+    .dtc-footer__grid { grid-template-columns: repeat(4, minmax(120px, 1fr)); }
+    .dtc-footer__brand { grid-column: 1 / -1; }
+    .dtc-footer__navigation { grid-column: 1 / -1; }
+    .dtc-footer__bottom { grid-template-columns: repeat(4, minmax(120px, 1fr)); }
+    .dtc-footer__legal-links { grid-column: 1 / -1; }
+}
+@media (max-width: 650px) {
+    .dtc-footer { padding-top: 44px; }
+    .dtc-footer__container, .dtc-legal-page__layout { width: min(100% - 32px, 1460px); }
+    .dtc-footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 20px; padding-bottom: 42px; }
+    .dtc-footer__brand { grid-column: 1 / -1; }
+    .dtc-footer__menu { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; }
+    .dtc-footer__menu > li > a { margin-bottom: 16px; }
+    .dtc-footer__bottom { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 18px 20px; }
+    .dtc-footer__copy, .dtc-footer__legal-links { grid-column: 1 / -1; }
+    .dtc-legal-page__layout { grid-template-columns: 1fr; gap: 28px; padding: 36px 0 48px; }
+    .dtc-legal-page__nav { border-right: 0; border-bottom: 1px solid #dedede; }
+    .dtc-legal-page__nav ul { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 0 16px; }
+    .dtc-legal-page__nav .is-current a { border-right: 0; border-bottom: 3px solid #123fba; }
+    .dtc-legal-page__content h1 { margin-bottom: 28px; }
+}

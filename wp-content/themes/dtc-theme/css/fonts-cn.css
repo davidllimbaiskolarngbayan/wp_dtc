@@ -1,0 +1,98 @@
+/* cn fonts */
+
+/*
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url('../fonts/cn/HYb1gj.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/cn/HYb1gj.woff') format('woff'), 
+	url('../fonts/cn/HYb1gj.ttf')  format('truetype'), 
+	url('../fonts/cn/HYb1gj.svg#HYb1gj') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url('../fonts/cn/HYb2gj.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/cn/HYb2gj.woff') format('woff'), 
+	url('../fonts/cn/HYb2gj.ttf')  format('truetype'), 
+	url('../fonts/cn/HYb2gj.svg#HYb2gj') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ArialMod';
+	src: url('../fonts/cn/HYb1gj.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/cn/HYb1gj.woff') format('woff'), 
+	url('../fonts/cn/HYb1gj.ttf')  format('truetype'), 
+	url('../fonts/cn/HYb1gj.svg#HYb1gj') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ArialMod';
+	src: url('../fonts/cn/HYb2gj.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/cn/HYb2gj.woff') format('woff'), 
+	url('../fonts/cn/HYb2gj.ttf')  format('truetype'), 
+	url('../fonts/cn/HYb2gj.svg#HYb2gj') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+*/
+
+/* en fonts for en text */
+
+
+/*
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url(../fonts/FSSinclairRegular.eot), 
+	url(../fonts/FSSinclairRegular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+0025-007E;
+}
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url(../fonts/FSSinclairMedium.eot), 
+	url(../fonts/FSSinclairMedium.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;	
+	unicode-range: U+0025-007E;
+}
+
+*/
+
+
+/* -- for body copy careers -- */
+
+@font-face {
+	font-family: 'ArialMod';
+	src: local('Arial');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+0025-007E;
+}
+@font-face {
+	font-family: 'ArialMod';
+	src: local('Arial');
+	font-weight: bold;
+	font-style: normal;	
+	unicode-range: U+0025-007E;
+}
+
+/* letter spacing */
+
+html body{
+	letter-spacing: 1px;
+}
+
+.cn .baner-box-detail h4{
+	letter-spacing:0 !important;
+	font-size:1.18em;
+}
+
+.baner-box-detail h3.cat{
+	
+}

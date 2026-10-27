@@ -1,0 +1,47 @@
+body.dtc-warranty-guide-page,
+body.dtc-warranty-guide-page #wapper.main-wrapper { background: #fff !important; }
+html:has(body.dtc-warranty-guide-page) { background: #000; }
+
+.dtc-customer-guide,
+.dtc-customer-guide * { box-sizing: border-box; }
+.dtc-customer-guide { max-width: 1240px; margin: 0 auto; padding: 36px 20px 72px; color: #222; font-size: 16px; line-height: 1.6; }
+.dtc-customer-guide__hero { padding: clamp(28px, 5vw, 56px); border-radius: 20px; background: linear-gradient(135deg, #0b2a63, #123a86); color: #fff; }
+.dtc-customer-guide__eyebrow { margin: 0 0 8px; color: #0b3d91; font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.dtc-customer-guide__hero .dtc-customer-guide__eyebrow { color: #fbbd00; }
+.dtc-customer-guide__hero h1 { margin: 0 0 12px; color: #fff !important; font-size: clamp(30px, 5vw, 48px); font-weight: 800; line-height: 1.1; }
+.dtc-customer-guide__hero > p:last-child { max-width: 720px; margin: 0; color: #e0e8f8; font-size: 18px; }
+.dtc-customer-guide__actions { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 16px; margin: 24px 0 48px; }
+.dtc-customer-guide__card { display: flex; flex-direction: column; min-height: 220px; padding: 24px; border: 1px solid #d5dcea; border-top: 5px solid #fbbd00; border-radius: 16px; background: #fff; box-shadow: 0 8px 22px rgba(11, 42, 99, .06); color: inherit; text-decoration: none !important; transition: transform .15s ease, box-shadow .15s ease; }
+.dtc-customer-guide__card:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(11, 42, 99, .12); }
+.dtc-customer-guide__number { color: #0b3d91; font-size: 13px; font-weight: 800; letter-spacing: .1em; }
+.dtc-customer-guide h2 { margin: 8px 0; color: #0b2a63; font-size: clamp(22px, 3vw, 30px); font-weight: 800; line-height: 1.2; }
+.dtc-customer-guide__card h2 { font-size: 21px; }
+.dtc-customer-guide__card p { margin: 0 0 18px; color: #566176; }
+.dtc-customer-guide__link { margin-top: auto; color: #0b3d91; font-weight: 800; }
+.dtc-customer-guide__warranty { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; align-items: center; margin: 0 0 52px; padding: clamp(22px, 4vw, 36px); border-radius: 18px; background: #f4f7fc; }
+.dtc-customer-guide__warranty h2,
+.dtc-customer-guide__faqs h2 { margin-top: 0; }
+.dtc-customer-guide__warranty ul { margin: 16px 0; padding-left: 22px; }
+.dtc-customer-guide__warranty li { margin: 8px 0; }
+.dtc-customer-guide__note { padding: 12px 14px; border-left: 4px solid #fbbd00; background: #fff; color: #44506a; }
+.dtc-customer-guide__qr { display: grid; justify-items: center; padding: 22px; border: 1px solid #d5dcea; border-radius: 16px; background: #fff; text-align: center; }
+.dtc-customer-guide__qr img { display: block; width: 180px; height: 180px; }
+.dtc-customer-guide__qr h3 { margin: 12px 0 4px; color: #0b2a63; font-size: 20px; font-weight: 800; }
+.dtc-customer-guide__qr p { margin: 0 0 8px; color: #566176; }
+.dtc-customer-guide__qr a { color: #0b3d91; font-weight: 700; text-decoration: underline; }
+.dtc-customer-guide__faqs { max-width: 920px; margin: 0 auto; }
+.dtc-customer-guide__faq-group { margin: 22px 0; }
+.dtc-customer-guide__faq-group h3 { margin: 0 0 10px; color: #0b2a63; font-size: 20px; font-weight: 800; }
+.dtc-customer-guide__faq-group details { margin: 8px 0; padding: 14px 16px; border: 1px solid #d5dcea; border-radius: 10px; background: #fff; }
+.dtc-customer-guide__faq-group summary { color: #0b2a63; font-weight: 700; cursor: pointer; }
+.dtc-customer-guide__faq-group summary:focus-visible,
+.dtc-customer-guide a:focus-visible { outline: 3px solid rgba(0, 78, 168, .6); outline-offset: 3px; }
+.dtc-customer-guide__answer { margin-top: 10px; color: #44506a; }
+.dtc-customer-guide__answer > :last-child { margin-bottom: 0; }
+@media (min-width: 680px) {
+    .dtc-customer-guide__actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .dtc-customer-guide__warranty { grid-template-columns: minmax(0, 1fr) 250px; }
+}
+@media (min-width: 1000px) {
+    .dtc-customer-guide__actions { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

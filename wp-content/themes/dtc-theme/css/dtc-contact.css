@@ -1,0 +1,405 @@
+/* Contact Form 7 styled to match the registration page panels. */
+body.dtc-contact-page #main-page {
+    min-height: 55vh;
+    padding: 0 0 56px;
+    background: #fff;
+}
+body.dtc-contact-page #main-page > .container {
+    width: 100%;
+    max-width: none;
+    padding: 0 0 56px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body.dtc-contact-page .content-contact,
+body.dtc-contact-page .content-new,
+body.dtc-contact-page .wpcf7 {
+    width: 100%;
+    max-width: none;
+}
+body.dtc-contact-page .wpcf7 form {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-sizing: border-box;
+}
+body.dtc-contact-page .dtc-contact-heading {
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0 calc(50% - 50vw) 2rem;
+    padding: clamp(3rem, 7vw, 5.5rem) max(1.25rem, calc((100vw - 1100px) / 2));
+    background: linear-gradient(135deg, #0b2a63 0%, #123a86 100%);
+    color: #fff;
+}
+body.dtc-contact-page .dtc-contact-eyebrow {
+    margin: 0 0 .45rem;
+    color: #fbbd00;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+body.dtc-contact-page .dtc-contact-heading h1 {
+    margin: 0 0 .55rem;
+    color: #fff !important;
+    font-size: clamp(28px, 4vw, 38px);
+    font-weight: 750;
+    line-height: 1.15;
+}
+body.dtc-contact-page .dtc-contact-heading > p:last-child {
+    max-width: 650px;
+    margin: 0;
+    color: #dbe5f8;
+    font-size: 16px;
+    line-height: 1.65;
+}
+body.dtc-contact-page .dtc-contact-fields {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 24px;
+    width: calc(100% - 2rem);
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: clamp(1.25rem, 3vw, 2rem);
+    overflow: hidden;
+    border: 1px solid #e3e5e8;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .035);
+    box-sizing: border-box;
+}
+body.dtc-contact-page .dtc-contact-panel-title {
+    grid-column: 1 / -1;
+    margin: calc(0px - clamp(1.25rem, 3vw, 2rem)) calc(0px - clamp(1.25rem, 3vw, 2rem)) .25rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fafafa;
+    color: #181818;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+body.dtc-contact-page .dtc-contact-field { min-width: 0; }
+body.dtc-contact-page .dtc-contact-field--full { grid-column: 1 / -1; }
+body.dtc-contact-page .wpcf7 form label {
+    display: block;
+    color: #242424;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+body.dtc-contact-page .wpcf7 form label br { display: none; }
+body.dtc-contact-page .wpcf7-form-control-wrap { display: block; margin-top: 10px; }
+body.dtc-contact-page .wpcf7 input[type="text"],
+body.dtc-contact-page .wpcf7 input[type="email"],
+body.dtc-contact-page .wpcf7 input[type="tel"],
+body.dtc-contact-page .wpcf7 textarea {
+    display: block;
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+    padding: 0 1rem;
+    border: 1px solid #cfd2d6;
+    border-radius: 7px;
+    background: #fff;
+    color: #222;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    transition: border-color .15s ease, box-shadow .15s ease;
+}
+body.dtc-contact-page .wpcf7 textarea {
+    min-height: 200px;
+    padding: 14px 16px;
+    border: 1px solid #cfd2d6;
+    border-radius: 7px;
+    font-size: 16px;
+    resize: vertical;
+}
+body.dtc-contact-page .wpcf7 input:focus,
+body.dtc-contact-page .wpcf7 textarea:focus {
+    outline: none;
+    border-color: #a47a00;
+    box-shadow: 0 0 0 3px rgba(251, 190, 0, .2);
+}
+body.dtc-contact-page .wpcf7 form input.wpcf7-not-valid,
+body.dtc-contact-page .wpcf7 form textarea.wpcf7-not-valid {
+    border-color: #b42318;
+}
+body.dtc-contact-page .wpcf7 form .wpcf7-not-valid-tip {
+    display: block;
+    margin: 0.25rem 0 0;
+    color: #b42318;
+    font-size: 14px;
+    line-height: 1.35;
+    font-weight: 400;
+}
+body.dtc-contact-page .dtc-contact-consent,
+body.dtc-contact-page .dtc-contact-submit { grid-column: 1 / -1; }
+body.dtc-contact-page .dtc-contact-consent { font-size: 14px; font-style: normal; }
+body.dtc-contact-page .dtc-contact-consent .wpcf7-form-control-wrap { display: block; margin: 0; }
+body.dtc-contact-page .dtc-contact-consent .wpcf7-list-item { margin: 0; }
+body.dtc-contact-page .dtc-contact-consent .wpcf7-list-item label {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+body.dtc-contact-page .dtc-contact-consent input[type="checkbox"] { width: 18px; height: 18px; vertical-align: middle; }
+body.dtc-contact-page .dtc-contact-consent .wpcf7-not-valid { outline: 2px solid #b42318; outline-offset: 2px; }
+body.dtc-contact-page .dtc-contact-consent .wpcf7-not-valid-tip { margin-top: 8px; }
+body.dtc-contact-page .dtc-contact-privacy-link {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #123fba;
+    font: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+body.dtc-contact-page .dtc-contact-privacy-link:focus-visible { outline: 2px solid #123fba; outline-offset: 2px; }
+body.dtc-contact-page .dtc-contact-submit { display: flex; justify-content: flex-end; }
+body.dtc-contact-page .wpcf7 input[type="submit"] {
+    min-width: 190px;
+    min-height: 48px;
+    padding: 0 2rem;
+    border: 1px solid #e2a900;
+    border-radius: 9px;
+    background: #fbbd00;
+    color: #000;
+    font: inherit;
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 14px rgba(147, 107, 0, .18);
+    cursor: pointer;
+    transition: background-color .16s ease, border-color .16s ease, box-shadow .16s ease, transform .16s ease;
+}
+body.dtc-contact-page .wpcf7 input[type="submit"]:hover,
+body.dtc-contact-page .wpcf7 input[type="submit"]:focus-visible { border-color: #c99200; background: #e0a800; box-shadow: 0 8px 18px rgba(147, 107, 0, .24); transform: translateY(-1px); }
+body.dtc-contact-page .wpcf7 input[type="submit"]:focus-visible { outline: 3px solid rgba(11, 42, 99, .28); outline-offset: 3px; }
+body.dtc-contact-page .wpcf7 input[type="submit"]:active { box-shadow: inset 0 2px 4px rgba(75, 55, 0, .2); transform: translateY(0); }
+body.dtc-contact-page .wpcf7 input[type="submit"]:disabled {
+    border-color: #a99a61;
+    background: #edc85e;
+    color: #626262;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    body.dtc-contact-page .wpcf7 input[type="submit"] { transition: none; }
+    body.dtc-contact-page .wpcf7 input[type="submit"]:hover { transform: none; }
+}
+body.dtc-contact-page .wpcf7 .wpcf7-response-output {
+    margin: 0;
+    padding: 12px 16px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+body.dtc-contact-page .wpcf7 form.invalid .wpcf7-response-output,
+body.dtc-contact-page .wpcf7 form.unaccepted .wpcf7-response-output,
+body.dtc-contact-page .wpcf7 form.failed .wpcf7-response-output,
+body.dtc-contact-page .wpcf7 form.aborted .wpcf7-response-output,
+body.dtc-contact-page .wpcf7 form.spam .wpcf7-response-output {
+    border-color: #b42318;
+    background: #fff1f0;
+    color: #8f1d16;
+}
+body.dtc-contact-page .wpcf7 form.invalid .wpcf7-response-output,
+body.dtc-contact-page .wpcf7 form.unaccepted .wpcf7-response-output { display: none; }
+body.dtc-contact-page .wpcf7 form.sent .wpcf7-response-output {
+    display: none;
+}
+
+.dtc-contact-modal[hidden] { display: none; }
+.dtc-contact-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 100000;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, .72);
+}
+.dtc-contact-modal__dialog {
+    position: relative;
+    width: min(100%, 1440px);
+    overflow: hidden;
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 18px 60px rgba(0, 0, 0, .3);
+}
+.dtc-contact-modal__brand {
+    display: flex;
+    flex: 0 0 min(32%, 405px);
+    min-height: 153px;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    border-radius: 18px;
+    background: #000;
+}
+.dtc-contact-modal__brand img { display: block; width: min(100%, 350px); height: auto; }
+.dtc-contact-modal__close {
+    position: absolute;
+    top: 20px;
+    right: 26px;
+    z-index: 1;
+    display: grid;
+    width: 44px;
+    height: 44px;
+    place-items: center;
+    border: 0;
+    border-radius: 4px;
+    background: #fff;
+    color: #34383c;
+    font-size: 42px;
+    line-height: 1;
+    cursor: pointer;
+}
+.dtc-contact-modal__close:hover,
+.dtc-contact-modal__close:focus-visible { background: #f1f1f1; }
+.dtc-contact-modal__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    padding: 72px 58px;
+}
+.dtc-contact-modal__message {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+.dtc-contact-modal__heading {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.dtc-contact-modal__check {
+    display: grid;
+    flex: 0 0 126px;
+    width: 126px;
+    height: 126px;
+    place-items: center;
+    border-radius: 50%;
+    background: #ffb900;
+}
+.dtc-contact-modal__check svg {
+    display: block;
+    width: 78px;
+    height: 78px;
+    fill: none;
+    stroke: #171b1f;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 6;
+}
+.dtc-contact-modal__body h2 {
+    margin: 0;
+    color: #202428;
+    font-size: clamp(38px, 4vw, 68px);
+    font-weight: 800;
+    line-height: 1.03;
+}
+.dtc-contact-modal__accent {
+    display: block;
+    width: 72px;
+    height: 8px;
+    margin: 16px 0 28px 160px;
+    border-radius: 5px;
+    background: #ffb900;
+}
+.dtc-contact-modal__body p {
+    margin: 0 0 0 160px;
+    color: #555b61;
+    font-size: clamp(16px, 1.6vw, 28px);
+    line-height: 1.4;
+}
+body.dtc-contact-modal-open { overflow: hidden; }
+
+.dtc-privacy-modal[hidden] { display: none; }
+.dtc-privacy-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 100001;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, .65);
+}
+.dtc-privacy-modal__dialog {
+    position: relative;
+    width: min(100%, 1050px);
+    max-height: min(78vh, 900px);
+    overflow: hidden;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 18px 60px rgba(0, 0, 0, .25);
+}
+.dtc-privacy-modal__close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    z-index: 1;
+    display: grid;
+    width: 34px;
+    height: 34px;
+    place-items: center;
+    border: 0;
+    border-radius: 4px;
+    background: #fff;
+    color: #222;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+.dtc-privacy-modal__close:hover,
+.dtc-privacy-modal__close:focus-visible { background: #f1f1f1; }
+.dtc-privacy-modal__content {
+    max-height: min(78vh, 900px);
+    overflow: auto;
+    padding: 54px 86px 40px;
+    color: #222;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.dtc-privacy-modal__content .dtc-legal-page__content h1 { margin: 0 0 24px; font-size: 30px; }
+.dtc-privacy-modal__content .dtc-legal-page__content h2 { margin: 24px 0 10px; font-size: 18px; }
+.dtc-privacy-modal__content .dtc-legal-page__content p { margin: 0 0 16px; }
+.dtc-privacy-modal__content .dtc-legal-page__content a { color: #123fba; text-decoration: underline; }
+body.dtc-privacy-modal-open { overflow: hidden; }
+
+@media (max-width: 700px) {
+    body.dtc-contact-page #main-page > .container { width: 100%; padding: 0 0 40px; }
+    body.dtc-contact-page .dtc-contact-heading { padding: 2.75rem 1.25rem; }
+    body.dtc-contact-page .dtc-contact-fields { width: calc(100% - 2rem); grid-template-columns: 1fr; gap: 18px; padding: 1rem; }
+    body.dtc-contact-page .dtc-contact-panel-title { margin: -1rem -1rem .25rem; padding: .85rem 1rem; font-size: 16px; }
+    body.dtc-contact-page .dtc-contact-field--full { grid-column: 1; }
+    body.dtc-contact-page .dtc-contact-submit { justify-content: stretch; }
+    body.dtc-contact-page .wpcf7 input[type="submit"] { width: 100%; }
+    .dtc-privacy-modal { padding: 10px; }
+    .dtc-privacy-modal__dialog { max-height: 90vh; border-radius: 12px; }
+    .dtc-privacy-modal__content { max-height: 90vh; padding: 58px 22px 24px; }
+    .dtc-contact-modal { padding: 16px; }
+    .dtc-contact-modal__dialog { border-radius: 14px; }
+    .dtc-contact-modal__body { flex-direction: column; align-items: stretch; gap: 28px; padding: 64px 24px 28px; }
+    .dtc-contact-modal__heading { gap: 16px; }
+    .dtc-contact-modal__check { flex-basis: 64px; width: 64px; height: 64px; }
+    .dtc-contact-modal__check svg { width: 42px; height: 42px; stroke-width: 6.5; }
+    .dtc-contact-modal__body h2 { font-size: clamp(28px, 7vw, 38px); }
+    .dtc-contact-modal__accent { width: 56px; height: 6px; margin: 14px 0 18px 80px; }
+    .dtc-contact-modal__body p { margin-left: 80px; font-size: 16px; }
+    .dtc-contact-modal__brand { align-self: center; width: min(100%, 340px); min-height: 120px; padding: 20px; }
+    .dtc-contact-modal__brand img { width: min(100%, 290px); }
+    .dtc-contact-modal__close { top: 8px; right: 10px; }
+}

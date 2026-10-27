@@ -1,0 +1,147 @@
+/* th fonts */
+
+
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url('../fonts/th/Quark-Light.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/th/Quark-Light.woff') format('woff'), 
+	url('../fonts/th/Quark-Light.ttf')  format('truetype'), 
+	url('../fonts/th/Quark-Light.svg#Quark-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url('../fonts/th/Quark-Bold.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/th/Quark-Bold.woff') format('woff'), 
+	url('../fonts/th/Quark-Bold.ttf')  format('truetype'), 
+	url('../fonts/th/Quark-Bold.svg#Quark-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body, #navbar p{
+	font-family:FSSinclairRegular !important;
+	font-size:19px !important;
+}
+
+.offers-box-info-content h1{
+	font-size:60px !important;
+}
+
+.font-arial{
+	font-family:FSSinclairRegular !important;
+}
+
+.scroll-down a{
+	font-size:19px !important;
+}
+
+@media all and (max-width: 400px) {
+.offers-box-info-content h1 {
+font-size:30px !important;
+}
+}
+
+@media all and (max-width: 500px) {
+.offers-box-info-content h1 {
+font-size:40px !important;
+}
+}
+
+@media all and (max-width: 768px) {
+
+.baner-box-detail-mb h4{
+font-size:20px !important;
+}
+}
+
+#bottom ul >li >a{
+	font-size:17px !important;
+}
+
+#bottom .widgettitle {
+	font-size:18px !important;
+	font-weight:bold !important;
+}
+
+#footer  p{
+font-size:16px !important;
+}
+
+h3{
+font-size:20px !important
+}
+
+#navbar .sub-menu li a{
+font-weight:bold;
+}
+
+#navbar ul li a{
+font-weight:bold;
+}
+
+.ht_content_banner_feature{
+	font-size:18px !important;
+}
+
+.baner-box-detail h4, .baner-box-detail-mb h4{
+	margin-bottom:10px !important;
+}
+/*
+@font-face {
+	font-family: 'ArialMod';
+	src: url('../fonts/th/Quark-Light.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/th/Quark-Light.woff') format('woff'), 
+	url('../fonts/th/Quark-Light.ttf')  format('truetype'), 
+	url('../fonts/th/Quark-Light.svg#Quark-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ArialMod';
+	src: url('../fonts/th/Quark-Bold.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/th/Quark-Bold.woff') format('woff'), 
+	url('../fonts/th/Quark-Bold.ttf')  format('truetype'), 
+	url('../fonts/th/Quark-Bold.svg#Quark-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}*/
+
+
+/* en fonts for en text */
+/*
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url(../fonts/FSSinclairRegular.eot), 
+	url(../fonts/FSSinclairRegular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+0025-007E;
+}
+@font-face {
+	font-family: 'FSSinclairRegular';
+	src: url(../fonts/FSSinclairMedium.eot), 
+	url(../fonts/FSSinclairMedium.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;	
+	unicode-range: U+0025-007E;
+}*/
+
+
+/* -- for body copy careers -- */
+/*
+@font-face {
+	font-family: 'ArialMod';
+	src: local('Arial');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+0025-007E;
+}
+@font-face {
+	font-family: 'ArialMod';
+	src: local('Arial');
+	font-weight: bold;
+	font-style: normal;	
+	unicode-range: U+0025-007E;
+}*/

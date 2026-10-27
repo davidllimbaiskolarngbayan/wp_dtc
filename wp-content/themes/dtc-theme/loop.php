@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: me664 * Date: 1/15/15 * Time: 12:07 AM */echo "<div class='content-media-centre'>";while(have_posts()){    the_post();	if(is_search()){		echo Hatt()->load_template('loop/content','search');	}else{		echo Hatt()->load_template('loop/content',get_post_format());	}}echo '</div>';

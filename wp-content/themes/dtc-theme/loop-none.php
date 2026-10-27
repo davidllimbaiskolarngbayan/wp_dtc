@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: me664 * Date: 1/15/15 * Time: 12:15 AM */?><div class="alert alert-warning">    <?php _e('Sorry, no results found.',HATT_TEXTDOMAIN)?></div>

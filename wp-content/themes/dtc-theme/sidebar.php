@@ -1,0 +1,1 @@
+<?php/** * The sidebar containing the main widget area. * * @package Kryptonite */?><div class="col-sm-4">	<?php	dynamic_sidebar();	?></div>

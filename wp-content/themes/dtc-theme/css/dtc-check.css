@@ -1,0 +1,95 @@
+/* Check warranty page */
+body.dtc-check-page, body.dtc-check-page #wapper.main-wrapper { background: #fff !important; }
+/* Short page: the canvas under the footer is black, so the footer looks like it reaches the bottom. */
+html:has(body.dtc-check-page) { background: #000; }
+.dtc-check { padding: 40px 0 64px; color: #222; }
+.dtc-check, .dtc-check *, .dtc-check *::before, .dtc-check *::after { box-sizing: border-box; }
+.dtc-check__grid { display: grid; gap: 32px; align-items: center; }
+.dtc-check__eyebrow { margin: 0 0 8px; color: #0b3d91; font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.dtc-check h1.dtc-check__title { margin: 0 0 12px; color: #0b2a63; font-size: clamp(32px, 6vw, 52px) !important; font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; text-transform: none !important; }
+.dtc-check__lead { max-width: 520px; margin: 0; color: #44506a; font-size: 17px; }
+.dtc-check__form { max-width: 520px; margin-top: 24px; padding: 24px; background: #fff; border-top: 5px solid #fbbd00; border-radius: 20px; box-shadow: 0 12px 32px rgba(11, 42, 99, .1); }
+.dtc-check__label { display: block; margin: 0 0 8px; color: #0b2a63; font-size: 14px; font-weight: 700; }
+.dtc-check__row { display: flex; gap: 10px; }
+.dtc-check__row input { flex: 1 1 auto; min-width: 0; height: 50px; margin: 0; padding: 0 14px; border: 2px solid #d5dcea; border-radius: 12px; background: #fff; color: #222; font-size: 16px; }
+.dtc-check__row input:focus-visible, .dtc-check__submit:focus-visible { outline: 3px solid rgba(0, 78, 168, .6); outline-offset: 2px; }
+.dtc-check__row input.parsley-error { border-color: #b42318; }
+.dtc-check__submit { flex: 0 0 auto; height: 50px; padding: 0 28px; border: 0; border-radius: 12px; background: #0b2a63; color: #fff; font-size: 16px; font-weight: 700; cursor: pointer; transition: background-color .2s ease; }
+.dtc-check__submit:hover { background: #0b3d91; }
+.dtc-check__help { max-width: 520px; margin-top: 14px; color: #44506a; font-size: 14px; }
+.dtc-check__help a { color: #0b3d91; font-weight: 700; text-decoration: underline; }
+.dtc-check ul.parsley-errors-list { list-style: none; margin: 8px 0 0 !important; padding: 0 !important; }
+.dtc-check ul.parsley-errors-list li { color: #b42318; font-size: 14px; }
+.dtc-check #message .alert { max-width: 520px; margin-top: 16px; border-radius: 12px; }
+.dtc-check #message br { display: none; }
+.dtc-check__figure { margin: 0; text-align: center; }
+.dtc-check__figure svg { display: block; width: 100%; max-width: 360px; height: auto; margin: 0 auto; filter: drop-shadow(0 18px 24px rgba(11, 42, 99, .25)); }
+.dtc-check__results:empty { display: none; }
+.dtc-check__results { margin-top: 40px; }
+.dtc-records__title { margin: 0 0 16px; color: #0b2a63; font-size: clamp(24px, 4vw, 36px) !important; font-weight: 800; }
+.dtc-record { margin: 0 0 16px; padding: 20px 24px; background: #fff; border: 1px solid #d5dcea; border-left: 5px solid #fbbd00; border-radius: 16px; box-shadow: 0 8px 20px rgba(11, 42, 99, .06); }
+.dtc-record dl { display: grid; gap: 14px 24px; grid-template-columns: 1fr; margin: 0; }
+.dtc-record dt { color: #667089; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.dtc-record dd { margin: 2px 0 0; color: #222; font-size: 17px; font-weight: 600; overflow-wrap: anywhere; }
+.dtc-record .dtc-claim { margin-top: 20px; padding: 16px 18px; border: 1px solid #d5dcea; border-radius: 12px; background: #f7f9fc; }
+.dtc-record .dtc-claim summary { color: #0b2a63; font-size: 16px; font-weight: 700; cursor: pointer; }
+.dtc-record .dtc-claim summary:focus-visible { outline: 3px solid rgba(0, 78, 168, .45); outline-offset: 3px; }
+.dtc-record .dtc-claim > p { margin: 12px 0 18px; color: #44506a; font-size: 14px; }
+.dtc-record .dtc-claim__form { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 16px; width: 100%; max-width: 640px; margin: 0; }
+.dtc-record .dtc-claim__form label { display: block !important; float: none !important; width: 100% !important; margin: 0 !important; color: #0b2a63; font-size: 14px; font-weight: 700; }
+.dtc-record .dtc-claim__form input[type="email"],
+.dtc-record .dtc-claim__form input[type="text"],
+.dtc-record .dtc-claim__form input[type="date"],
+.dtc-record .dtc-claim__form textarea { display: block !important; float: none !important; width: 100% !important; min-width: 0; max-width: 100%; min-height: 48px; margin: 7px 0 0 !important; padding: 12px 14px !important; border: 1px solid #c7d0df !important; border-radius: 8px !important; background: #fff !important; color: #222 !important; box-shadow: none !important; font: inherit; font-size: 15px; line-height: 1.5; }
+.dtc-record .dtc-claim__form textarea { min-height: 140px; resize: vertical; }
+.dtc-record .dtc-claim__form input:focus,
+.dtc-record .dtc-claim__form textarea:focus { border-color: #0b3d91 !important; outline: 3px solid rgba(11, 61, 145, .14); }
+.dtc-record .dtc-claim__form button[type="submit"] { justify-self: start; min-height: 48px; padding: 0 22px; border: 1px solid #071d47; border-radius: 9px; background: #0b2a63; color: #fff; font-size: 15px; font-weight: 700; box-shadow: 0 4px 12px rgba(11, 42, 99, .16); cursor: pointer; transition: background-color .16s ease, box-shadow .16s ease, transform .16s ease; }
+.dtc-record .dtc-claim__form button[type="submit"]:hover { background: #071d47; box-shadow: 0 7px 16px rgba(11, 42, 99, .22); transform: translateY(-1px); }
+.dtc-record .dtc-claim__form button[type="submit"]:focus-visible,
+.dtc-record .dtc-claim-response__form button:focus-visible { outline: 3px solid rgba(0, 78, 168, .35); outline-offset: 3px; }
+.dtc-record .dtc-claim__form button[type="submit"]:active,
+.dtc-record .dtc-claim-response__form button:active { box-shadow: inset 0 2px 4px rgba(11, 42, 99, .2); transform: translateY(0); }
+.dtc-record .dtc-claim__form button[type="submit"]:disabled { opacity: .65; cursor: wait; box-shadow: none; transform: none; }
+.dtc-record .dtc-claim__message { min-height: 0; margin: 0; color: #0b2a63; font-size: 14px; font-weight: 600; }
+.dtc-record .dtc-claim__message:empty { display: none; }
+.dtc-record .dtc-claim-history { margin-top: 20px; padding: 18px; border: 1px solid #d5dcea; border-radius: 12px; background: #f7f9fc; }
+.dtc-record .dtc-claim-history h3 { margin: 0 0 14px; color: #0b2a63; font-size: 18px; font-weight: 700; }
+.dtc-record .dtc-claim-history__item { padding: 12px 0; border-top: 1px solid #d5dcea; }
+.dtc-record .dtc-claim-history__item:first-of-type { border-top: 0; }
+.dtc-record .dtc-claim-history__heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #0b2a63; }
+.dtc-record .dtc-claim-history__status { padding: 4px 9px; border-radius: 20px; background: #0b2a63; color: #fff; font-size: 12px; font-weight: 700; }
+.dtc-record .dtc-claim-history__item > p { margin: 6px 0; color: #667089; font-size: 13px; }
+.dtc-record .dtc-claim-history__item ol { margin: 8px 0 0; padding-left: 20px; color: #222; }
+.dtc-record .dtc-claim-history__item li { padding: 3px 0; }
+.dtc-record .dtc-claim-history__customer-message { margin: 6px 0; padding: 10px 12px; border-left: 3px solid #0b3d91; background: #fff; color: #222; }
+.dtc-record .dtc-claim-history__item time { margin-left: 8px; color: #667089; font-size: 13px; }
+.dtc-record .dtc-claim-response__form { display: grid; gap: 12px; margin: 16px 0 0; padding: 16px; border: 1px solid #d5dcea; border-radius: 10px; background: #fff; }
+.dtc-record .dtc-claim-response__form label { display: block; margin: 0; color: #0b2a63; font-size: 14px; font-weight: 700; }
+.dtc-record .dtc-claim-response__form input,
+.dtc-record .dtc-claim-response__form textarea { display: block; width: 100%; margin-top: 6px; padding: 10px 12px; border: 1px solid #c7d0df; border-radius: 7px; font: inherit; }
+.dtc-record .dtc-claim-response__form textarea { resize: vertical; }
+.dtc-record .dtc-claim-response__form button { justify-self: start; min-height: 46px; padding: 0 20px; border: 1px solid #071d47; border-radius: 9px; background: #0b2a63; color: #fff; font-weight: 700; box-shadow: 0 4px 12px rgba(11, 42, 99, .16); cursor: pointer; transition: background-color .16s ease, box-shadow .16s ease, transform .16s ease; }
+.dtc-record .dtc-claim-response__form button:hover { background: #071d47; box-shadow: 0 7px 16px rgba(11, 42, 99, .22); transform: translateY(-1px); }
+.dtc-record .dtc-claim-response__form button:disabled { opacity: .65; cursor: wait; box-shadow: none; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+    .dtc-record .dtc-claim__form button[type="submit"],
+    .dtc-record .dtc-claim-response__form button { transition: none; }
+    .dtc-record .dtc-claim__form button[type="submit"]:hover,
+    .dtc-record .dtc-claim-response__form button:hover { transform: none; }
+}
+.dtc-record .dtc-claim-response__message { margin: 0; color: #0b2a63; font-size: 14px; font-weight: 600; }
+.dtc-record .dtc-claim-response__message.is-error { color: #b42318; }
+.dtc-record .dtc-claim-open-notice { margin: 16px 0 0; padding: 12px 14px; border-left: 4px solid #fbbd00; background: #fff8df; color: #343434; }
+@media (min-width: 640px) { .dtc-record dl { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) {
+    .dtc-check { padding: 64px 0 80px; }
+    .dtc-check__grid { grid-template-columns: minmax(0, 520px) minmax(0, 360px); justify-content: center; gap: 72px; }
+    .dtc-record dl { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 899px) {
+    .dtc-check { padding: 32px 0 48px; }
+    .dtc-check__grid { gap: 24px; }
+    .dtc-check__figure svg { max-width: 220px; }
+}
+@media (max-width: 479px) { .dtc-check__row { flex-direction: column; } .dtc-check__submit { width: 100%; } }

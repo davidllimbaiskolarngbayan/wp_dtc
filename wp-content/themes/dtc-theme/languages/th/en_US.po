@@ -1,0 +1,2884 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hatt Framework\n"
+"POT-Creation-Date: 2015-12-04 17:41+0800\n"
+"PO-Revision-Date: 2015-12-04 17:51+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "ขออภัย ไม่พบหน้าที่ค้นหา / ลองไปยังลิงค์ด้านล่าง"
+
+#: 404.php:26
+msgid "Recent Posts"
+msgstr "ข่าวสารล่าสุด"
+
+#: banner_before_content.php:231
+msgid "SEARCH FOR LOCATION"
+msgstr ""
+
+#: banner_before_content.php:238
+msgid "LOCATE ME"
+msgstr "พื้นที่ของฉัน"
+
+#: banner_before_content.php:261
+msgid "Weibo"
+msgstr ""
+
+#: banner_before_content.php:264 banner_before_content.php:304
+msgid "print page"
+msgstr ""
+
+#: banner_before_content.php:285
+msgid "Welcome back! Your last search was for "
+msgstr ""
+
+#: banner_before_content.php:310 header.php:113
+msgid "Find My Tyres"
+msgstr "ค้นหายางของคุณ"
+
+#: banner_before_content.php:311 hatt_templates/tyres/compare.php:100
+#: hatt_templates/tyres/compare.php:237 hatt_templates/tyres/compare.php:255
+#: hatt_templates/tyres/compare.php:270 header.php:126 header.php:152
+msgid "Find a store"
+msgstr "ค้นหาร้านค้า"
+
+#: banner_before_content.php:312 header.php:301 header.php:311
+msgid "Follow us"
+msgstr "ติดตามเรา"
+
+#: banner_before_content.php:313
+msgid "No results found."
+msgstr ""
+
+#: comments.php:21
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:28 comments.php:47
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:29 comments.php:48
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30 comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:70
+msgid "Add a comment"
+msgstr ""
+
+#: comments.php:70
+msgid "Be the first to comment"
+msgstr ""
+
+#: comments.php:71
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:77
+msgid "Name*"
+msgstr ""
+
+#: comments.php:80
+msgid "Your email address *"
+msgstr ""
+
+#: comments.php:84
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:89
+msgid "Message"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching "
+"can help."
+msgstr ""
+
+#: content.php:22
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:29
+msgid "Pages:"
+msgstr ""
+
+#: hatt_templates/about-us/list-time.php:25
+msgid "Scroll down to <br>explore our timeline"
+msgstr "ประวัติความสำเร็จ<br />และนวัตกรรม"
+
+#: hatt_templates/comment_list.php:14
+msgid "Pingback:"
+msgstr ""
+
+#: hatt_templates/comment_list.php:14 hatt_templates/comment_list.php:58
+msgid "Edit"
+msgstr ""
+
+#: hatt_templates/comment_list.php:28 hattframework/helpers/hatt-helper.php:131
+#: hattframework/helpers/hatt-helper.php:163
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: hatt_templates/comment_list.php:32 hattframework/helpers/hatt-helper.php:63
+#: hattframework/helpers/hatt-helper.php:426
+msgid "Author"
+msgstr ""
+
+#: hatt_templates/comment_list.php:39
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr ""
+
+#: hatt_templates/comment_list.php:46
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: hatt_templates/element/corporate.php:43 hatt_templates/faq/loop-item.php:37
+msgid "Back to top"
+msgstr "กลับสู่ด้านบน"
+
+#: hatt_templates/element/masthead.php:62
+#: hatt_templates/element/masthead_offer.php:67
+msgid "Scroll down"
+msgstr "เลื่อนลง"
+
+#: hatt_templates/loop/career-archive.php:66
+msgid "Apply Today"
+msgstr "สมัครงาน"
+
+#: hatt_templates/loop/content.php:1 template-news.php:58
+msgid "Read More"
+msgstr "อ่านรายละเอียดทั้งหมด"
+
+#: hatt_templates/offer/single.php:38 hattframework/class/class.offer.php:131
+msgid "TERMS AND CONDITIONS"
+msgstr ""
+
+#: hatt_templates/portfolio/grid.php:1
+msgid "ALL"
+msgstr "ทั้งหมด"
+
+#: hatt_templates/portfolio/grid.php:1
+msgid "Load More"
+msgstr ""
+
+#: hatt_templates/portfolio/grid.php:1
+msgid "Previous Project"
+msgstr ""
+
+#: hatt_templates/portfolio/grid.php:1
+msgid "Close Project"
+msgstr ""
+
+#: hatt_templates/portfolio/grid.php:1
+msgid "Next Project"
+msgstr ""
+
+#: hatt_templates/portfolio/single-ajax.php:65
+msgid "Live Demo"
+msgstr ""
+
+#: hatt_templates/stores/filter-category.php:30
+msgid "Filter by category"
+msgstr ""
+
+#: hatt_templates/stores/filter-category.php:31
+#: hattframework/helpers/hatt-helper.php:85
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: hatt_templates/stores/filter-content.php:298
+#: hatt_templates/stores/filter-content.php:366
+msgid "results found"
+msgstr ""
+
+#: hatt_templates/stores/filter-content.php:302
+msgid "Numbers of results per page"
+msgstr ""
+
+#: hatt_templates/stores/filter-content.php:314
+msgid "Show results"
+msgstr "แสดงผล"
+
+#: hatt_templates/stores/filter-content.php:319
+msgid "-- Select distance --"
+msgstr "กำหนดระยะทาง"
+
+#: hatt_templates/stores/filter-content.php:322
+msgid "Within 3km"
+msgstr "ภายใน 3km กม."
+
+#: hatt_templates/stores/filter-content.php:325
+msgid "Within 4km"
+msgstr "ภายใน 4km กม."
+
+#: hatt_templates/stores/filter-content.php:328
+msgid "Within 5km"
+msgstr "ภายใน 5km กม."
+
+#: hatt_templates/stores/filter-content.php:331
+msgid "Within 6km"
+msgstr "ภายใน 6km กม."
+
+#: hatt_templates/stores/filter-content.php:334
+msgid "Within 7km"
+msgstr "ภายใน 7km กม."
+
+#: hatt_templates/stores/filter-content.php:337
+msgid "Within 8km"
+msgstr "ภายใน 8km กม."
+
+#: hatt_templates/stores/filter-content.php:405
+msgid "Sorry, no results found! Use the map below to find the nearest store."
+msgstr "ขออภัย ไม่พบข้อมูลที่ค้นหา กรุณาเลือกร้านที่ใกล้ที่สุดจากแผนที่ด้านล่าง"
+
+#: hatt_templates/stores/filter-element.php:39
+#: hatt_templates/stores/filter-element.php:68
+#: hatt_templates/stores/filter-element.php:135
+msgctxt "store-page"
+msgid "State"
+msgstr "จังหวัด"
+
+#: hatt_templates/stores/filter-element.php:44
+#: hatt_templates/stores/filter-element.php:71
+#: hatt_templates/stores/filter-element.php:138
+msgctxt "store-page"
+msgid "Area"
+msgstr "เขต / อำเภอ"
+
+#: hatt_templates/stores/filter-element.php:48
+#: hatt_templates/stores/filter-element.php:73
+msgctxt "store-page"
+msgid "Locate Me"
+msgstr "พื้นที่ของฉัน"
+
+#: hatt_templates/stores/filter-element.php:52
+msgctxt "store-page"
+msgid "Show Results"
+msgstr "แสดงผล"
+
+#: hatt_templates/stores/filter-element.php:54
+msgctxt "store-page"
+msgid " Select distance"
+msgstr "กำหนดระยะทาง"
+
+#: hatt_templates/stores/filter-element.php:55
+msgctxt "store-page"
+msgid "Within 1km"
+msgstr "ภายใน 1km กม."
+
+#: hatt_templates/stores/filter-element.php:56
+msgctxt "store-page"
+msgid "Within 2km"
+msgstr "ภายใน 2km กม."
+
+#: hatt_templates/stores/filter-element.php:57
+msgctxt "store-page"
+msgid "Within 3km"
+msgstr "ภายใน 3km กม."
+
+#: hatt_templates/stores/filter-element.php:58
+msgctxt "store-page"
+msgid "Within 5km"
+msgstr "ภายใน 5km กม."
+
+#: hatt_templates/stores/filter-element.php:59
+msgctxt "store-page"
+msgid "Within 10km"
+msgstr "ภายใน 10km กม."
+
+#: hatt_templates/stores/filter-element.php:79
+#: hatt_templates/stores/filter-element.php:114
+msgctxt "store-page"
+msgid "Filter by"
+msgstr "ค้นหาโดย"
+
+#: hatt_templates/stores/filter-element.php:88
+#: hatt_templates/stores/filter-element.php:144
+msgctxt "store-page"
+msgid "Store category"
+msgstr "ประเภทของร้านค้า"
+
+#: hatt_templates/stores/filter-element.php:98
+#: hatt_templates/stores/filter-element.php:154
+msgctxt "store-page"
+msgid "Specialty"
+msgstr ""
+
+#: hatt_templates/stores/filter-element.php:117
+msgctxt "store-page"
+msgid "<span id=\"total_result\"></span> results found"
+msgstr "พบจำนวน <span id=\"total_result\">%s</span> ร้าน"
+
+#: hatt_templates/stores/filter-element.php:120
+msgctxt "store-page"
+msgid "Number of results"
+msgstr "จำนวนผลลัพธ์ต่อหน้า"
+
+#: hatt_templates/stores/filter-element.php:170
+msgctxt "store-page"
+msgid "Get Directions"
+msgstr "ขอเส้นทาง"
+
+#: hatt_templates/stores/filter-element.php:188
+msgctxt "store-page"
+msgid "No results found"
+msgstr ""
+
+#: hatt_templates/stores/gird.php:18 hatt_templates/stores/single.php:28
+msgid "Get Directions"
+msgstr "ขอเส้นทาง"
+
+#: hatt_templates/top_page.php:21
+msgid "Blog"
+msgstr ""
+
+#: hatt_templates/top_page.php:23
+msgid "Read our glory stories"
+msgstr ""
+
+#: hatt_templates/tyres/box-compare.php:43
+msgid "select a tyre to compare"
+msgstr "เลือกยางเพื่อเปรียบเทียบ"
+
+#: hatt_templates/tyres/box-compare.php:55
+msgid "compare"
+msgstr "เปรียบเทียบ"
+
+#: hatt_templates/tyres/browser/browser-category.php:38
+#: hatt_templates/tyres/find/ajax-category-size.php:11
+#: hatt_templates/tyres/find/ajax-category.php:13
+msgctxt "browser-category"
+msgid "Filter by category"
+msgstr "เลือกตามประเภทของยาง"
+
+#: hatt_templates/tyres/browser/browser-content-fix.php:37
+#: hatt_templates/tyres/find/ajax-recommendation-size.php:111
+#: hatt_templates/tyres/find/ajax-recommendation.php:120
+#: hatt_templates/tyres/find/ajax-recommendation.php:150
+#: hatt_templates/tyres/rfq/ajax-recommendation-size.php:58
+#: hatt_templates/tyres/rfq/ajax-recommendation.php:64
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:119
+msgid "Show only Run On Flat"
+msgstr "แสดงผลแค่ยางรันออนแฟลต"
+
+#: hatt_templates/tyres/browser/browser-content-fix.php:91
+#: hatt_templates/tyres/find/ajax-recommendation-size.php:89
+#: hatt_templates/tyres/find/ajax-recommendation-size.php:120
+#: hatt_templates/tyres/find/ajax-recommendation.php:82
+#: hatt_templates/tyres/find/ajax-recommendation.php:164
+#: hatt_templates/tyres/find/ajax-recommendation.php:177
+#: hatt_templates/tyres/find/find-recommendation-size.php:99
+#: hatt_templates/tyres/find/find-recommendation.php:125
+#: hatt_templates/tyres/find/rfq-find-recommendation.php:118
+#: hatt_templates/tyres/rfq/ajax-recommendation-size.php:73
+#: hatt_templates/tyres/rfq/ajax-recommendation.php:44
+#: hatt_templates/tyres/rfq/rfq-recommendation.php:118
+msgid "No results found"
+msgstr "ไม่พบที่ค้นหา"
+
+#: hatt_templates/tyres/browser/browser-feature.php:68
+msgid "Filter by features"
+msgstr "เลือกจากคุณลักษณะพิเศษ"
+
+#: hatt_templates/tyres/compare.php:36 hatt_templates/tyres/gird.php:167
+msgid "Compare"
+msgstr "เปรียบเทียบ"
+
+#: hatt_templates/tyres/compare.php:78 hatt_templates/tyres/compare.php:156
+#: hatt_templates/tyres/gird.php:168 hatt_templates/tyres/rfq-gird.php:75
+msgid "You can compare up to 3 tyres at a time"
+msgstr "คุณสามารถเปรียบเทียบได้ถึง 3 รุ่นในครั้งเดียว"
+
+#: hatt_templates/tyres/compare.php:80 hatt_templates/tyres/compare.php:160
+msgid "ADD A TYRE"
+msgstr "เพิ่มรุ่นยาง"
+
+#: hatt_templates/tyres/compare.php:105 hatt_templates/tyres/compare.php:244
+#: hatt_templates/tyres/compare.php:260 hatt_templates/tyres/gird.php:157
+#: hatt_templates/tyres/single.php:136 header.php:104
+msgid "Request for quote"
+msgstr ""
+
+#: hatt_templates/tyres/compare.php:119
+#: hattframework/plugins/Tax-meta-class/Tax-meta-class.php:373
+#: hattframework/plugins/Tax-meta-class/Tax-meta-class.php:420
+msgid "Remove"
+msgstr "ยกเลิก"
+
+#: hatt_templates/tyres/compare.php:121 hatt_templates/tyres/gird.php:121
+#: hatt_templates/tyres/single.php:118
+msgid "Find a Store"
+msgstr "ค้นหาร้านค้า"
+
+#: hatt_templates/tyres/compare.php:177
+msgid "Weather conditions and Features"
+msgstr "สภาพอากาศ และคุณสมบัติ"
+
+#: hatt_templates/tyres/compare.php:211 hatt_templates/tyres/single.php:381
+msgid "Available sizes"
+msgstr "ขนาดยาง"
+
+#: hatt_templates/tyres/compare.php:221
+msgid "No available data"
+msgstr "ไม่พบข้อมูล"
+
+#: hatt_templates/tyres/find/ajax-recommendation-size.php:87
+#: hatt_templates/tyres/find/ajax-recommendation.php:80
+#: hatt_templates/tyres/find/find-recommendation-size.php:97
+#: hatt_templates/tyres/find/find-recommendation.php:122
+msgid ""
+"We are sorry! We do not have tires for this model available for fitment in "
+"India at present."
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-recommendation-size.php:101
+#: hatt_templates/tyres/find/ajax-recommendation.php:105
+#: hatt_templates/tyres/find/find-recommendation-size.php:38
+#: hatt_templates/tyres/find/find-recommendation.php:50
+#: hatt_templates/tyres/find/rfq-find-recommendation.php:50
+#: hatt_templates/tyres/rfq/ajax-recommendation-size.php:38
+#: hatt_templates/tyres/rfq/ajax-recommendation.php:53
+#: hatt_templates/tyres/rfq/rfq-recommendation.php:50
+msgid "Here are our recommendations"
+msgstr "คำแนะนำจากกู๊ดเยียร์"
+
+#: hatt_templates/tyres/find/ajax-recommendation.php:95
+#: hatt_templates/tyres/find/ajax-vehicle-size.php:31
+msgid "Your Selected Size"
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-recommendation.php:154
+msgid "ORIGINAL EQUIPMENT TYRE"
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-recommendation.php:157
+#, php-format
+msgid ""
+"OE tyres are selected by the manufacturer to provide optimum performance "
+"based on your vehicle's characteristics.<br>Learn more about OE tyres <a href="
+"\"%1$s\">here</a>."
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-recommendation.php:169
+msgid "OTHER COMPATIBLE TYRES"
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-vehicle-size.php:13
+msgid "The following tyre sizes were found for your vehicle’s model."
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-vehicle-size.php:21
+msgid ""
+"To find out which is the right one for your vehicle, check the details on "
+"your original tyre or refer to your vehicle's documentation."
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-vehicle-size.php:47
+msgid "OE tyre size(s)"
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-vehicle-size.php:50
+msgid "Other tyre size(s)"
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-vehicle.php:6
+#: hatt_templates/tyres/find/find-rfq.php:4
+#: hatt_templates/tyres/find/find-vehicle-mobile.php:32
+#: hatt_templates/tyres/find/find-vehicle.php:4
+#: hatt_templates/tyres/rfq/ajax-vehicle.php:6
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:4
+msgid "Brand"
+msgstr "ยี่ห้อ"
+
+#: hatt_templates/tyres/find/ajax-vehicle.php:7
+#: hatt_templates/tyres/find/find-rfq.php:5
+#: hatt_templates/tyres/find/find-vehicle-mobile.php:40
+#: hatt_templates/tyres/find/find-vehicle.php:5
+#: hatt_templates/tyres/rfq/ajax-vehicle.php:7
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:5
+msgid "Model"
+msgstr "รุ่น"
+
+#: hatt_templates/tyres/find/ajax-vehicle.php:8
+#: hatt_templates/tyres/find/find-rfq.php:6
+#: hatt_templates/tyres/find/find-vehicle.php:6
+#: hatt_templates/tyres/rfq/ajax-vehicle.php:8
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:6
+msgid "Car Maker"
+msgstr ""
+
+#: hatt_templates/tyres/find/ajax-vehicle.php:9
+#: hatt_templates/tyres/find/find-rfq.php:7
+#: hatt_templates/tyres/find/find-vehicle-mobile.php:49
+#: hatt_templates/tyres/find/find-vehicle.php:7
+#: hatt_templates/tyres/rfq/ajax-vehicle.php:9
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:7
+msgid "Product Year"
+msgstr "ปีผลิต"
+
+#: hatt_templates/tyres/find/ajax-vehicle.php:10
+#: hatt_templates/tyres/find/find-rfq.php:8
+#: hatt_templates/tyres/find/find-vehicle.php:8
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:8
+msgid "Variant"
+msgstr ""
+
+#: hatt_templates/tyres/find/find-rfq.php:48
+#: hatt_templates/tyres/find/find-vehicle.php:64
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:51
+msgid ""
+"Find the size of tyres that originally came with your car by selecting the "
+"manufacturer and model."
+msgstr "ค้นหาขนาดยาง โดยการเลือกยี่ห้อและรุ่นของรถยนต์"
+
+#: hatt_templates/tyres/find/find-size-mobile.php:11
+#: hatt_templates/tyres/find/find-size.php:5
+#: hatt_templates/tyres/rfq/rfq-size.php:5
+msgid "FIRST NUMBER"
+msgstr "เลขกลุ่มแรก"
+
+#: hatt_templates/tyres/find/find-size-mobile.php:12
+#: hatt_templates/tyres/find/find-size.php:6
+#: hatt_templates/tyres/rfq/rfq-size.php:6
+msgid "SECOND NUMBER"
+msgstr "เลขกลุ่มที่สอง"
+
+#: hatt_templates/tyres/find/find-size-mobile.php:13
+#: hatt_templates/tyres/find/find-size.php:7
+#: hatt_templates/tyres/rfq/rfq-size.php:7
+msgid "THIRD NUMBER"
+msgstr "เลขกลุ่มสุดท้าย"
+
+#: hatt_templates/tyres/find/find-size.php:8
+#: hatt_templates/tyres/rfq/rfq-size.php:8 hatt_templates/tyres/single.php:291
+#: hatt_templates/tyres/single.php:346 hattframework/class/class.size.php:85
+msgid "Load Index"
+msgstr "ดัชนีโหลด"
+
+#: hatt_templates/tyres/find/find-size.php:9
+#: hatt_templates/tyres/rfq/rfq-size.php:9
+msgid "Speed Index"
+msgstr ""
+
+#: hatt_templates/tyres/find/find-size.php:10
+#: hatt_templates/tyres/rfq/rfq-size.php:10
+msgid "Optional"
+msgstr "ทางเลือกอื่น"
+
+#: hatt_templates/tyres/find/find-size.php:23
+#: hatt_templates/tyres/rfq/rfq-size.php:26
+msgid ""
+"Check your current tyres or your vehicle’s documentation for details about "
+"your tyres and enter them in the fields below."
+msgstr ""
+"ตรวจสอบยางของคุณหรือเอกสารประกอบรถยนต์ สำหรับรายละเอียดเกี่ยวกับยาง "
+"และกรอกข้อมูลในตารางด้านล่าง"
+
+#: hatt_templates/tyres/find/rfq-find-recommendation.php:115
+#: hatt_templates/tyres/rfq/rfq-recommendation.php:115
+msgid "Oops ! At present , we do not have tires available for fitment in India."
+msgstr ""
+
+#: hatt_templates/tyres/find/rfq-find-recommendation.php:133
+#: hatt_templates/tyres/rfq/ajax-recommendation-size.php:86
+#: hatt_templates/tyres/rfq/ajax-recommendation.php:80
+#: hatt_templates/tyres/rfq/rfq-recommendation.php:132
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:150
+msgid "Continue"
+msgstr ""
+
+#: hatt_templates/tyres/gird.php:58 hatt_templates/tyres/gird.php:91
+#: hatt_templates/tyres/rfq-gird.php:41 hatt_templates/tyres/rfq-gird.php:85
+#: hatt_templates/tyres/rfq/rfq-grid.php:66
+msgid "More details"
+msgstr "อ่านรายละเอียดทั้งหมด"
+
+#: hatt_templates/tyres/gird.php:69 hatt_templates/tyres/gird.php:96
+#: hatt_templates/tyres/rfq/rfq-grid.php:88 hatt_templates/tyres/single.php:96
+msgid "Also available in:"
+msgstr "รุ่นที่ใกล้เคียงกัน"
+
+#: hatt_templates/tyres/rfq-gird.php:74
+#: hatt_templates/tyres/rfq/rfq-grid.php:82
+#: hattframework/class/class.tyres.php:323
+msgid "Select"
+msgstr ""
+
+#: hatt_templates/tyres/rfq/ajax-recommendation-size.php:40
+#: hatt_templates/tyres/rfq/ajax-recommendation.php:56
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:111
+msgid "Select the tyre(s) to request a quote."
+msgstr ""
+
+#: hatt_templates/tyres/rfq/rfq-vehicle.php:108
+msgid "Available Tyres"
+msgstr ""
+
+#: hatt_templates/tyres/single.php:289 hatt_templates/tyres/single.php:344
+msgid "Tyre Size"
+msgstr "ขนาดยาง"
+
+#: hatt_templates/tyres/single.php:290 hatt_templates/tyres/single.php:345
+msgid "Speed Rating"
+msgstr "ดัชนีความเร็ว"
+
+#: hatt_templates/tyres/single.php:292 hatt_templates/tyres/single.php:347
+#: hattframework/class/class.size.php:90
+msgid "Sidewall"
+msgstr "แก้มยาง"
+
+#: hatt_templates/tyres/single.php:319
+#, php-format
+msgid ""
+"This is the Original Equipment (OE) tyre* that came with your vehicle. <a "
+"href=\"%1$s\">Learn more</a> about OE tyres."
+msgstr ""
+
+#: hatt_templates/tyres/single.php:320
+msgid ""
+"*Goodyear supplies this tyre for certain variants of this car model on a non-"
+"exclusive basis"
+msgstr ""
+
+#: hatt_templates/tyres/single.php:327
+msgid "Vehicle Model - "
+msgstr ""
+
+#: hatt_templates/tyres/single.php:363
+msgid "FEATURES AND BENEFITS"
+msgstr "คุณสมบัติ และ ประโยชน์"
+
+#: hattframework/class/class.career.php:15
+#: hattframework/class/class.career.php:16
+#: hattframework/class/class.career.php:17
+#: hattframework/class/class.career.php:18
+msgid "Careers"
+msgstr "ร่วมงานกับเรา"
+
+#: hattframework/class/class.career.php:19 hattframework/class/class.faq.php:18
+#: hattframework/class/class.layout.php:18
+#: hattframework/class/class.learn.php:19
+#: hattframework/class/class.offer.php:16 hattframework/class/class.size.php:16
+#: hattframework/class/class.stores.php:19
+#: hattframework/class/class.tyres.php:18
+msgid "Add New"
+msgstr "เพิ่มข้อมูล"
+
+#: hattframework/class/class.career.php:20
+msgid "Add New Career"
+msgstr ""
+
+#: hattframework/class/class.career.php:21
+msgid "New Career"
+msgstr ""
+
+#: hattframework/class/class.career.php:22
+msgid "Edit Career"
+msgstr ""
+
+#: hattframework/class/class.career.php:23
+msgid "View Career"
+msgstr ""
+
+#: hattframework/class/class.career.php:24
+msgid "All Careers"
+msgstr ""
+
+#: hattframework/class/class.career.php:25
+msgid "Search Careers"
+msgstr ""
+
+#: hattframework/class/class.career.php:26
+msgid "Parent Careers:"
+msgstr ""
+
+#: hattframework/class/class.career.php:27
+msgid "No Careers found."
+msgstr ""
+
+#: hattframework/class/class.career.php:28
+msgid "No Careers found in Trash."
+msgstr ""
+
+#: hattframework/class/class.career.php:49
+msgctxt "taxonomy general name"
+msgid "Career Categories"
+msgstr ""
+
+#: hattframework/class/class.career.php:50
+msgctxt "taxonomy singular name"
+msgid "Career Category"
+msgstr ""
+
+#: hattframework/class/class.career.php:51
+msgid "Search Career Categories"
+msgstr ""
+
+#: hattframework/class/class.career.php:52
+msgid "All Career Categories"
+msgstr ""
+
+#: hattframework/class/class.career.php:53
+msgid "Parent Career Category"
+msgstr ""
+
+#: hattframework/class/class.career.php:54
+msgid "Parent Career Category:"
+msgstr ""
+
+#: hattframework/class/class.career.php:55
+msgid "Edit Career Category"
+msgstr ""
+
+#: hattframework/class/class.career.php:56
+msgid "Update Career Category"
+msgstr ""
+
+#: hattframework/class/class.career.php:57
+msgid "Add New Career Category"
+msgstr ""
+
+#: hattframework/class/class.career.php:58
+msgid "New Career Category Name"
+msgstr ""
+
+#: hattframework/class/class.career.php:59
+msgid "Career Category"
+msgstr ""
+
+#: hattframework/class/class.career.php:80
+msgid "Career Infomation"
+msgstr ""
+
+#: hattframework/class/class.career.php:88
+msgid "Job Accountabilities"
+msgstr ""
+
+#: hattframework/class/class.career.php:92
+msgid "Job Department"
+msgstr ""
+
+#: hattframework/class/class.career.php:97
+msgid "Job Localtion"
+msgstr ""
+
+#: hattframework/class/class.career.php:101
+msgid "Type of job"
+msgstr ""
+
+#: hattframework/class/class.career.php:105
+msgid "Education"
+msgstr ""
+
+#: hattframework/class/class.career.php:110
+msgid "Experience"
+msgstr ""
+
+#: hattframework/class/class.career.php:115
+msgid "Mail button apply"
+msgstr ""
+
+#: hattframework/class/class.career.php:120
+msgid "Job Content"
+msgstr ""
+
+#: hattframework/class/class.career.php:125
+msgid "Job Responsibilities"
+msgstr ""
+
+#: hattframework/class/class.career.php:130
+msgid "Job Requirement"
+msgstr ""
+
+#: hattframework/class/class.faq.php:14 hattframework/class/class.faq.php:15
+#: hattframework/class/class.faq.php:16 hattframework/class/class.faq.php:17
+#: hattframework/vc-elements/ht-faq.php:28
+msgid "FAQ"
+msgstr ""
+
+#: hattframework/class/class.faq.php:19
+msgid "Add New FAQ"
+msgstr ""
+
+#: hattframework/class/class.faq.php:20
+msgid "New FAQ"
+msgstr ""
+
+#: hattframework/class/class.faq.php:21
+msgid "Edit FAQ"
+msgstr ""
+
+#: hattframework/class/class.faq.php:22
+msgid "View FAQ"
+msgstr ""
+
+#: hattframework/class/class.faq.php:23
+msgid "All FAQ"
+msgstr ""
+
+#: hattframework/class/class.faq.php:24
+msgid "Search FAQ"
+msgstr ""
+
+#: hattframework/class/class.faq.php:25
+msgid "Parent FAQ:"
+msgstr ""
+
+#: hattframework/class/class.faq.php:26
+msgid "No FAQ found."
+msgstr ""
+
+#: hattframework/class/class.faq.php:27
+msgid "No FAQ found in Trash."
+msgstr ""
+
+#: hattframework/class/class.faq.php:54
+msgid "Content"
+msgstr ""
+
+#: hattframework/class/class.faq.php:62
+msgid "Questions and answers"
+msgstr ""
+
+#: hattframework/class/class.faq.php:67
+msgid "Answer"
+msgstr ""
+
+#: hattframework/class/class.layout.php:14
+#: hattframework/class/class.layout.php:16
+msgid "Layouts"
+msgstr ""
+
+#: hattframework/class/class.layout.php:15
+#: hattframework/class/class.layout.php:17
+msgid "Layout"
+msgstr ""
+
+#: hattframework/class/class.layout.php:19
+msgid "Add New Layout"
+msgstr ""
+
+#: hattframework/class/class.layout.php:20
+msgid "New Layout"
+msgstr ""
+
+#: hattframework/class/class.layout.php:21
+msgid "Edit Layout"
+msgstr ""
+
+#: hattframework/class/class.layout.php:22
+msgid "View Layout"
+msgstr ""
+
+#: hattframework/class/class.layout.php:23
+msgid "All Layouts"
+msgstr ""
+
+#: hattframework/class/class.layout.php:24
+msgid "Search Layouts"
+msgstr ""
+
+#: hattframework/class/class.layout.php:25
+msgid "Parent Layouts:"
+msgstr ""
+
+#: hattframework/class/class.layout.php:26
+msgid "No Layouts found."
+msgstr ""
+
+#: hattframework/class/class.layout.php:27
+msgid "No Layouts found in Trash."
+msgstr ""
+
+#: hattframework/class/class.learn.php:15
+#: hattframework/class/class.learn.php:16
+#: hattframework/class/class.learn.php:17
+#: hattframework/class/class.learn.php:18
+#: hattframework/vc-elements/ht-learn.php:30
+msgid "Learn"
+msgstr ""
+
+#: hattframework/class/class.learn.php:20
+msgid "Add New Learn"
+msgstr ""
+
+#: hattframework/class/class.learn.php:21
+msgid "New Learn"
+msgstr ""
+
+#: hattframework/class/class.learn.php:22
+msgid "Edit Learn"
+msgstr ""
+
+#: hattframework/class/class.learn.php:23
+msgid "View Learn"
+msgstr ""
+
+#: hattframework/class/class.learn.php:24
+msgid "All Learns"
+msgstr ""
+
+#: hattframework/class/class.learn.php:25
+msgid "Search Learn"
+msgstr ""
+
+#: hattframework/class/class.learn.php:26
+msgid "Parent Learn:"
+msgstr ""
+
+#: hattframework/class/class.learn.php:27
+msgid "No Learns found."
+msgstr ""
+
+#: hattframework/class/class.learn.php:28
+msgid "No Learns found in Trash."
+msgstr ""
+
+#: hattframework/class/class.learn.php:49
+msgctxt "taxonomy general name"
+msgid "Learn Categories"
+msgstr ""
+
+#: hattframework/class/class.learn.php:50
+msgctxt "taxonomy singular name"
+msgid "Learn Category"
+msgstr ""
+
+#: hattframework/class/class.learn.php:51
+msgid "Search Learn Categories"
+msgstr ""
+
+#: hattframework/class/class.learn.php:52
+msgid "All Learn Categories"
+msgstr ""
+
+#: hattframework/class/class.learn.php:53
+msgid "Parent Learn Category"
+msgstr ""
+
+#: hattframework/class/class.learn.php:54
+msgid "Parent Learn Category:"
+msgstr ""
+
+#: hattframework/class/class.learn.php:55
+msgid "Edit Learn Category"
+msgstr ""
+
+#: hattframework/class/class.learn.php:56
+msgid "Update Learn Category"
+msgstr ""
+
+#: hattframework/class/class.learn.php:57
+msgid "Add New Learn Category"
+msgstr ""
+
+#: hattframework/class/class.learn.php:58
+msgid "New Learn Category Name"
+msgstr ""
+
+#: hattframework/class/class.learn.php:59
+msgid "Learn Category"
+msgstr ""
+
+#: hattframework/class/class.learn.php:128
+msgid "LEARN RELATED ARTICLES"
+msgstr ""
+
+#: hattframework/class/class.learn.php:136
+#: hattframework/vc-elements/ht-corporate.php:52
+#: hattframework/vc-elements/ht-masthead.php:51
+#: hattframework/vc-elements/ht-masthead.php:98
+#: hattframework/vc-elements/ht-masthead_offer.php:51
+#: hattframework/vc-elements/ht-masthead_offer.php:104
+#: hattframework/vc-elements/ht-store-filter.php:40
+#: hattframework/vc-elements/ht-type-browser.php:44
+#: hattframework/vc-elements/ht-type-browser.php:57
+msgid "Show"
+msgstr ""
+
+#: hattframework/class/class.learn.php:146
+#: hattframework/class/class.stores.php:164
+msgid "Banner"
+msgstr ""
+
+#: hattframework/class/class.learn.php:154
+msgid "Show/hide title banner"
+msgstr ""
+
+#: hattframework/class/class.learn.php:160
+#: hattframework/class/class.page.php:28
+#: hattframework/class/class.stores.php:172
+msgid "Banner Title"
+msgstr ""
+
+#: hattframework/class/class.learn.php:164
+#: hattframework/class/class.page.php:33
+msgid "Banner Image"
+msgstr ""
+
+#: hattframework/class/class.learn.php:170
+#: hattframework/class/class.page.php:38
+#: hattframework/class/class.stores.php:182
+msgid "Banner Image Mobile"
+msgstr ""
+
+#: hattframework/class/class.offer.php:12
+#: hattframework/class/class.offer.php:14
+msgid "Offers"
+msgstr ""
+
+#: hattframework/class/class.offer.php:13
+#: hattframework/class/class.offer.php:15
+msgid "Offer"
+msgstr ""
+
+#: hattframework/class/class.offer.php:17
+msgid "Add New Offer"
+msgstr ""
+
+#: hattframework/class/class.offer.php:18
+msgid "New Offer"
+msgstr ""
+
+#: hattframework/class/class.offer.php:19
+msgid "Edit Offer"
+msgstr ""
+
+#: hattframework/class/class.offer.php:20
+msgid "View Offer"
+msgstr ""
+
+#: hattframework/class/class.offer.php:21
+msgid "All Offers"
+msgstr ""
+
+#: hattframework/class/class.offer.php:22
+msgid "Search Offers"
+msgstr ""
+
+#: hattframework/class/class.offer.php:23
+msgid "Parent Offers:"
+msgstr ""
+
+#: hattframework/class/class.offer.php:24
+msgid "No Offers found."
+msgstr ""
+
+#: hattframework/class/class.offer.php:25
+msgid "No Offers found in Trash."
+msgstr ""
+
+#: hattframework/class/class.offer.php:45
+msgctxt "taxonomy general name"
+msgid "Offer Categories"
+msgstr ""
+
+#: hattframework/class/class.offer.php:46
+msgctxt "taxonomy singular name"
+msgid "Offer Category"
+msgstr ""
+
+#: hattframework/class/class.offer.php:47
+msgid "Search Offer Categories"
+msgstr ""
+
+#: hattframework/class/class.offer.php:48
+msgid "All Offer Categories"
+msgstr ""
+
+#: hattframework/class/class.offer.php:49
+msgid "Parent Offer Category"
+msgstr ""
+
+#: hattframework/class/class.offer.php:50
+msgid "Parent Offer Category:"
+msgstr ""
+
+#: hattframework/class/class.offer.php:51
+msgid "Edit Offer Category"
+msgstr ""
+
+#: hattframework/class/class.offer.php:52
+msgid "Update Offer Category"
+msgstr ""
+
+#: hattframework/class/class.offer.php:53
+msgid "Add New Offer Category"
+msgstr ""
+
+#: hattframework/class/class.offer.php:54
+msgid "New Offer Category Name"
+msgstr ""
+
+#: hattframework/class/class.offer.php:55
+msgid "Offer Category"
+msgstr ""
+
+#: hattframework/class/class.offer.php:77
+msgid "PROMOTION"
+msgstr ""
+
+#: hattframework/class/class.offer.php:97
+msgid "Social"
+msgstr ""
+
+#: hattframework/class/class.offer.php:105
+#: hattframework/class/class.post.php:30
+msgid "Social Banner"
+msgstr ""
+
+#: hattframework/class/class.offer.php:106
+#: hattframework/class/class.post.php:31
+msgid "Show social share banner"
+msgstr ""
+
+#: hattframework/class/class.page.php:20
+msgid "Page Banner"
+msgstr ""
+
+#: hattframework/class/class.post.php:21
+msgid "Post Infomation"
+msgstr ""
+
+#: hattframework/class/class.post.php:61
+#: hattframework/class/class.stores.php:209
+#: hattframework/class/class.tyres.php:661
+msgid "Category Image "
+msgstr ""
+
+#: hattframework/class/class.size.php:12 hattframework/class/class.size.php:13
+#: hattframework/class/class.size.php:14 hattframework/class/class.size.php:15
+msgid "Size"
+msgstr ""
+
+#: hattframework/class/class.size.php:17
+msgid "Add New Size"
+msgstr ""
+
+#: hattframework/class/class.size.php:18
+msgid "New Size"
+msgstr ""
+
+#: hattframework/class/class.size.php:19
+msgid "Edit Size"
+msgstr ""
+
+#: hattframework/class/class.size.php:20
+msgid "View Size"
+msgstr ""
+
+#: hattframework/class/class.size.php:21
+msgid "All Size"
+msgstr ""
+
+#: hattframework/class/class.size.php:22
+msgid "Search Size"
+msgstr ""
+
+#: hattframework/class/class.size.php:23
+msgid "Parent Size:"
+msgstr ""
+
+#: hattframework/class/class.size.php:24
+msgid "No Size found."
+msgstr ""
+
+#: hattframework/class/class.size.php:25
+msgid "No Size found in Trash."
+msgstr ""
+
+#: hattframework/class/class.size.php:53
+msgid "Size Information"
+msgstr ""
+
+#: hattframework/class/class.size.php:60
+#: hattframework/class/class.stores.php:87
+#: hattframework/class/class.tyres.php:282
+#: hattframework/class/class.tyres.php:302
+msgid "Information"
+msgstr ""
+
+#: hattframework/class/class.size.php:65
+msgid "Width"
+msgstr ""
+
+#: hattframework/class/class.size.php:70
+msgid "Aspect Ratio"
+msgstr ""
+
+#: hattframework/class/class.size.php:75
+msgid "Rim Diameter"
+msgstr ""
+
+#: hattframework/class/class.size.php:80
+msgid "Speed Ratio"
+msgstr ""
+
+#: hattframework/class/class.size.php:95
+msgid "Tyre Code"
+msgstr ""
+
+#: hattframework/class/class.stores.php:15
+#: hattframework/class/class.stores.php:16
+#: hattframework/class/class.stores.php:17
+#: hattframework/class/class.stores.php:18
+#: hattframework/class/class.tyres.php:495
+#: hattframework/class/class.tyres.php:500
+msgid "Store"
+msgstr ""
+
+#: hattframework/class/class.stores.php:20
+msgid "Add New Store"
+msgstr ""
+
+#: hattframework/class/class.stores.php:21
+msgid "New Store"
+msgstr ""
+
+#: hattframework/class/class.stores.php:22
+msgid "Edit Store"
+msgstr ""
+
+#: hattframework/class/class.stores.php:23
+msgid "View Store"
+msgstr ""
+
+#: hattframework/class/class.stores.php:24
+msgid "All Stores"
+msgstr ""
+
+#: hattframework/class/class.stores.php:25
+msgid "Search Store"
+msgstr ""
+
+#: hattframework/class/class.stores.php:26
+msgid "Parent Store:"
+msgstr ""
+
+#: hattframework/class/class.stores.php:27
+msgid "No Store found."
+msgstr ""
+
+#: hattframework/class/class.stores.php:28
+msgid "No Stores found in Trash."
+msgstr ""
+
+#: hattframework/class/class.stores.php:49
+msgctxt "taxonomy general name"
+msgid "Store Categories"
+msgstr ""
+
+#: hattframework/class/class.stores.php:50
+msgctxt "taxonomy singular name"
+msgid "Store Category"
+msgstr ""
+
+#: hattframework/class/class.stores.php:51
+msgid "Search Store Categories"
+msgstr ""
+
+#: hattframework/class/class.stores.php:52
+msgid "All Store Categories"
+msgstr ""
+
+#: hattframework/class/class.stores.php:53
+msgid "Parent Store Category"
+msgstr ""
+
+#: hattframework/class/class.stores.php:54
+msgid "Parent Store Category:"
+msgstr ""
+
+#: hattframework/class/class.stores.php:55
+msgid "Edit Store Category"
+msgstr ""
+
+#: hattframework/class/class.stores.php:56
+msgid "Update Store Category"
+msgstr ""
+
+#: hattframework/class/class.stores.php:57
+msgid "Add New Store Category"
+msgstr ""
+
+#: hattframework/class/class.stores.php:58
+msgid "New Store Category Name"
+msgstr ""
+
+#: hattframework/class/class.stores.php:59
+msgid "Store Category"
+msgstr ""
+
+#: hattframework/class/class.stores.php:80
+msgid "Store Information"
+msgstr ""
+
+#: hattframework/class/class.stores.php:92
+msgid "Address"
+msgstr ""
+
+#: hattframework/class/class.stores.php:97
+msgid "Area"
+msgstr ""
+
+#: hattframework/class/class.stores.php:102
+msgid "State/Province"
+msgstr ""
+
+#: hattframework/class/class.stores.php:107
+msgid "Postal Code"
+msgstr ""
+
+#: hattframework/class/class.stores.php:112
+msgid "Phone"
+msgstr ""
+
+#: hattframework/class/class.stores.php:117
+msgid "Email"
+msgstr ""
+
+#: hattframework/class/class.stores.php:122
+msgid "Store Cat"
+msgstr ""
+
+#: hattframework/class/class.stores.php:127
+msgid "Specialty Cat"
+msgstr ""
+
+#: hattframework/class/class.stores.php:132
+msgid "Map"
+msgstr ""
+
+#: hattframework/class/class.stores.php:137
+msgid "Store Latitudes"
+msgstr ""
+
+#: hattframework/class/class.stores.php:142
+msgid "Store Longitudes"
+msgstr ""
+
+#: hattframework/class/class.stores.php:149
+#: hattframework/class/class.stores.php:154
+msgid "Store Provided services"
+msgstr ""
+
+#: hattframework/class/class.stores.php:176
+msgid "Banner title"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:14
+#: hattframework/class/class.tyres.php:16
+#: hattframework/class/class.tyres.php:17
+msgid "Tyres"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:15
+msgid "Tyre"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:19
+msgid "Add New Tyre"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:20
+msgid "New Tyre"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:21
+msgid "Edit Tyre"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:22
+msgid "View Tyre"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:23
+msgid "All Tyre"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:24
+msgid "Search Tyre"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:25
+msgid "Parent Tyre:"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:26
+msgid "No Tyre found."
+msgstr ""
+
+#: hattframework/class/class.tyres.php:27
+msgid "No Tyre found in Trash."
+msgstr ""
+
+#: hattframework/class/class.tyres.php:49
+msgctxt "taxonomy general name"
+msgid "Tyre Features"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:50
+msgctxt "taxonomy singular name"
+msgid "Tyre Feature"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:51
+msgid "Search Tyre Features"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:52
+msgid "All Tyre Features"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:53
+msgid "Parent Tyre Feature"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:54
+msgid "Parent Tyre Feature:"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:55
+msgid "Edit Tyre Feature"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:56
+msgid "Update Tyre Feature"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:57
+msgid "Add New Tyre Feature"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:58
+msgid "New Tyre Feature Name"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:59
+msgid "Tyre Feature"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:118
+msgctxt "taxonomy general name"
+msgid "Tyre Categories"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:119
+msgctxt "taxonomy singular name"
+msgid "Tyre Category"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:120
+msgid "Search Tyre Categories"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:121
+msgid "All Tyre Categories"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:122
+msgid "Parent Tyre Category"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:123
+msgid "Parent Tyre Category:"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:124
+msgid "Edit Tyre Category"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:125
+msgid "Update Tyre Category"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:126
+msgid "Add New Tyre Category"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:127
+msgid "New Tyre Category Name"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:128
+msgid "Tyre Category"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:219
+msgid "Select Size"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:275
+msgid "Tyre Information"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:287
+msgid "Tyre code"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:292
+msgid "Run On Flat"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:298
+msgid "Sort Order"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:307
+#: hattframework/class/class.tyres.php:318
+msgid "Price"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:312
+msgid "Show Pricing"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:333
+#: hattframework/class/class.tyres.php:338
+msgid "中高档轿车胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:343
+msgid "中高档轿车胎/中高档SUV胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:349
+msgid "中长途卡客车驱动轴专用轮胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:354
+msgid "长途高速卡客车驱动轴专用轮胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:360
+msgid "经济型轿车胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:365
+msgid "豪华型轿车胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:371
+msgid "缺气保用轮胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:376
+msgid "中高档运动胎/中高档SUV胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:381
+msgid "豪华型运动胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:386
+msgid "豪华型SUV胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:392
+msgid "豪华型SUV胎/豪华型运动胎/豪华型轿车胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:398
+msgid "中高档/豪华型轿车胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:404
+msgid "豪华型轿车胎/豪华型SUV胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:409
+msgid "中高档/豪华型SUV胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:415
+msgid "中高档SUV胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:420
+msgid "SUV冬季胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:425
+msgid "轿车冬季胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:430
+msgid "缺气保用冬季胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:435
+msgid "高里程运输系列轮胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:440
+msgid "中长途挂车轴专用宽基子午线轮胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:445
+msgid "中长途卡客车全轮位轮胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:450
+msgid "城际及城市道路中型巴士全轮位轮胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:455
+msgid "中高档越野胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:460
+msgid "豪华型越野胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:465
+msgid "越野冬季胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:471
+msgid "经济型越野胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:477
+msgid "豪华型专业越野胎"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:483
+msgid "平直高速公路系列"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:489
+msgid "高速公路国道系列"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:510
+msgid "AVAILABLE SIZES"
+msgstr "ขนาดที่สามารถใช้ได้"
+
+#: hattframework/class/class.tyres.php:525
+msgid "Tyre Media"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:533
+msgid "Gallery"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:539
+msgid "Video url"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:547
+msgid "Url"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:548
+msgid "Only youtube url"
+msgstr ""
+
+#: hattframework/class/class.tyres.php:584
+msgid "Feature Image "
+msgstr ""
+
+#: hattframework/class/class.tyres.php:635
+msgid "Technology Icon "
+msgstr ""
+
+#: hattframework/class/class.tyres.php:672
+msgid "OE Tyres"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:17
+msgctxt "taxonomy general name"
+msgid "Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:18
+msgctxt "taxonomy singular name"
+msgid "Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:19
+msgid "Search Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:20
+msgid "All Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:21
+msgid "Parent Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:22
+msgid "Parent Vehicle:"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:23
+msgid "Edit Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:24
+msgid "Update Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:25
+msgid "Add New Vehicle"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:26
+msgid "New Vehicle Name"
+msgstr ""
+
+#: hattframework/class/class.vehicle.php:27
+msgid "Vehicle"
+msgstr ""
+
+#: hattframework/core/class.optiontree.php:24
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:61
+#: hattframework/helpers/hatt-helper.php:424 hattframework/ht-customvc.php:1
+msgid "None"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:62
+msgid "ID"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:64
+#: hattframework/vc-elements/ht-Collapse.php:45
+#: hattframework/vc-elements/ht-banner-feature.php:45
+#: hattframework/vc-elements/ht-corporate.php:38
+#: hattframework/vc-elements/ht-find-tyres.php:71
+#: hattframework/vc-elements/ht-masthead.php:67
+#: hattframework/vc-elements/ht-masthead_offer.php:67
+#: hattframework/vc-elements/ht-rfq.php:71
+#: hattframework/vc-elements/ht-timeline-about.php:55
+msgid "Title"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:65
+msgid "Name"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:66
+#: hattframework/plugins/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:67
+msgid "Date"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:68
+msgid "Modified"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:69
+msgid "Parent"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:70
+msgid "Rand"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:71
+msgid "Comment Count"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:133
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:135
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:137
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:137
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:139
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:139
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:141
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:141
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:144
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:146
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:148
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:150
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:152
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:154
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:156
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:158
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:160
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:167
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:169
+msgid "Archives"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:253
+msgid "<i class=\"fa fa-chevron-left\"></i>"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:254
+msgid "<i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:425
+msgid "Post ID"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:427
+msgid "Post Title"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:428
+msgid "Post Name"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:429
+msgid "Post Date"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:430
+msgid "Last Modified Date"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:431
+msgid "Post Parent"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:432
+msgid "Random"
+msgstr ""
+
+#: hattframework/helpers/hatt-helper.php:528
+msgid "Premium"
+msgstr "ระดับพรีเมี่ยม"
+
+#: hattframework/helpers/hatt-helper.php:529
+msgid "Middle"
+msgstr "ระดับกลาง"
+
+#: hattframework/helpers/hatt-helper.php:530
+msgid "Value"
+msgstr "เน้นความคุ้มค่า"
+
+#: hattframework/helpers/hatt-helper.php:545
+msgid "Classification:"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Row id"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Row id for custom link #"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Bottom  to Top"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Top to Bottom"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Right to Left"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Left to Right"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "This effect for element"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "No"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Yes"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "This allow enable parallax effect"
+msgstr ""
+
+#: hattframework/ht-customvc.php:1
+msgid "Fullwidth "
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:28
+msgid "Primary Navigation"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:29
+msgid "Primary Mobile Navigation"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:89
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:147
+#: hattframework/ht-hook-functions.php:159
+msgid "No more"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:395
+msgid "Shop Sidebar"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:397
+msgid "Widgets in this area will be shown on shop."
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:439
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:461
+msgid "404 Not Found"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:464
+#: hattframework/ht-hook-functions.php:708
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:632
+msgctxt "breadcrumb"
+msgid "Offers"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:667
+#: hattframework/ht-hook-functions.php:688
+msgid "STORE"
+msgstr "ร้านค้า"
+
+#: hattframework/ht-hook-functions.php:724
+msgid "REQUEST FOR QUOTE"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:794
+msgid "Previous Page"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:795
+msgid "Next Page"
+msgstr ""
+
+#: hattframework/ht-hook-functions.php:831
+msgid "--Select--"
+msgstr ""
+
+#: hattframework/ht-required-plugins.php:72
+#: hattframework/plugins/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: hattframework/ht-required-plugins.php:73
+#: hattframework/plugins/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: hattframework/ht-required-plugins.php:74
+#: hattframework/plugins/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: hattframework/ht-required-plugins.php:75
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: hattframework/ht-required-plugins.php:76
+#: hattframework/plugins/class-tgm-plugin-activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:77
+#: hattframework/plugins/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:78
+#: hattframework/plugins/class-tgm-plugin-activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:79
+#: hattframework/plugins/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:80
+#: hattframework/plugins/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:81
+#: hattframework/plugins/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:82
+#: hattframework/plugins/class-tgm-plugin-activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:83
+#: hattframework/plugins/class-tgm-plugin-activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:84
+#: hattframework/plugins/class-tgm-plugin-activation.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:85
+#: hattframework/plugins/class-tgm-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/ht-required-plugins.php:86
+#: hattframework/plugins/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: hattframework/ht-required-plugins.php:87
+#: hattframework/plugins/class-tgm-plugin-activation.php:177
+#: hattframework/plugins/class-tgm-plugin-activation.php:1945
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: hattframework/ht-required-plugins.php:88
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: hattframework/import/importer.php:25
+msgid "You do not have permission to do this"
+msgstr ""
+
+#: hattframework/import/importer.php:32
+msgid "Importer Class Was Not Installed"
+msgstr ""
+
+#: hattframework/import/importer.php:74
+msgid ""
+"<span class='red'>Plugin: Option Tree must be installed first. Stop working!</"
+"span>"
+msgstr ""
+
+#: hattframework/import/importer.php:84
+msgid "Importing the demo theme options... <span>DONE!</span><br>"
+msgstr ""
+
+#: hattframework/import/importer.php:91
+msgid ""
+"<span class='red'>File: theme_options.json contain NULL content. Stop working!"
+"</span>"
+msgstr ""
+
+#: hattframework/import/importer.php:121
+msgid "Importing the demo widgets... <span>DONE!</span>.<br>"
+msgstr ""
+
+#: hattframework/import/importer.php:140
+msgid "<span class='red'>File Not Found. Stop working!</span>"
+msgstr ""
+
+#: hattframework/import/importer.php:161
+msgid "Importing data: "
+msgstr ""
+
+#: hattframework/import/importer.php:189
+msgid "Importing menu settings ... <span>DONE!</span><br>"
+msgstr ""
+
+#: hattframework/import/importer.php:215
+msgid ""
+"Setting reading options... <span>DONE!</span><br/><span>All Done! Have Fun</"
+"span>"
+msgstr ""
+
+#: hattframework/plugins/BFI_Thumb.php:120
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: hattframework/plugins/BFI_Thumb.php:235
+msgid "Image rotate failed."
+msgstr ""
+
+#: hattframework/plugins/BFI_Thumb.php:257
+msgid "Image opacity change failed."
+msgstr ""
+
+#: hattframework/plugins/BFI_Thumb.php:335
+msgid "Image color change failed."
+msgstr ""
+
+#: hattframework/plugins/BFI_Thumb.php:351
+msgid "Image grayscale failed."
+msgstr ""
+
+#: hattframework/plugins/BFI_Thumb.php:367
+msgid "Image negate failed."
+msgstr ""
+
+#: hattframework/plugins/Tax-meta-class/Tax-meta-class.php:386
+msgid "Add"
+msgstr ""
+
+#: hattframework/plugins/Tax-meta-class/Tax-meta-class.php:719
+msgid "Remove Image"
+msgstr ""
+
+#: hattframework/plugins/Tax-meta-class/Tax-meta-class.php:721
+msgid "Upload Image"
+msgstr ""
+
+#: hattframework/plugins/Tax-meta-class/Tax-meta-class.php:741
+msgid "Select a color"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:178
+#: hattframework/plugins/class-tgm-plugin-activation.php:1636
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:534
+#: hattframework/plugins/class-tgm-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1290
+#: hattframework/plugins/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1312
+#: hattframework/plugins/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1929
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2059
+#: hattframework/plugins/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2059
+#: hattframework/plugins/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+#: hattframework/plugins/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: hattframework/vc-elements/ht-Collapse.php:28
+msgid "Collapse"
+msgstr ""
+
+#: hattframework/vc-elements/ht-Collapse.php:37
+msgid "Open/Close"
+msgstr ""
+
+#: hattframework/vc-elements/ht-Collapse.php:39
+msgid "Open"
+msgstr ""
+
+#: hattframework/vc-elements/ht-Collapse.php:39
+msgid "Close"
+msgstr ""
+
+#. Description of the plugin/theme
+#: hattframework/vc-elements/ht-Collapse.php:51
+#: hattframework/vc-elements/ht-banner-feature.php:63
+#: hattframework/vc-elements/ht-corporate.php:64
+#: hattframework/vc-elements/ht-timeline-about.php:61
+msgid "Description"
+msgstr ""
+
+#: hattframework/vc-elements/ht-banner-feature.php:29
+msgid "Banner Feature"
+msgstr ""
+
+#: hattframework/vc-elements/ht-banner-feature.php:39
+msgid "Image Backgroup"
+msgstr ""
+
+#: hattframework/vc-elements/ht-banner-feature.php:51
+#: hattframework/vc-elements/ht-find-tyres.php:77
+#: hattframework/vc-elements/ht-masthead.php:73
+#: hattframework/vc-elements/ht-masthead_offer.php:73
+#: hattframework/vc-elements/ht-rfq.php:77
+msgid "Sub Title"
+msgstr ""
+
+#: hattframework/vc-elements/ht-banner-feature.php:57
+msgid "Link"
+msgstr ""
+
+#: hattframework/vc-elements/ht-corporate.php:29
+msgid "Corporate"
+msgstr ""
+
+#: hattframework/vc-elements/ht-corporate.php:44
+msgid "Content Right"
+msgstr ""
+
+#: hattframework/vc-elements/ht-corporate.php:50
+msgid "Back To Top"
+msgstr ""
+
+#: hattframework/vc-elements/ht-corporate.php:52
+msgid "Not Show"
+msgstr ""
+
+#: hattframework/vc-elements/ht-corporate.php:58
+msgid "Button"
+msgstr ""
+
+#: hattframework/vc-elements/ht-faq.php:38
+#: hattframework/vc-elements/ht-faq.php:41
+#: hattframework/vc-elements/ht-learn.php:46
+#: hattframework/vc-elements/ht-learn.php:49
+msgid "Post per page"
+msgstr ""
+
+#: hattframework/vc-elements/ht-faq.php:47
+msgid "Custom Id Post"
+msgstr ""
+
+#: hattframework/vc-elements/ht-faq.php:51
+msgid "Custom Id (1,2,3)"
+msgstr ""
+
+#: hattframework/vc-elements/ht-faq.php:58
+#: hattframework/vc-elements/ht-faq.php:65
+#: hattframework/vc-elements/ht-learn.php:64
+#: hattframework/vc-elements/ht-learn.php:71
+msgid "Order"
+msgstr ""
+
+#: hattframework/vc-elements/ht-faq.php:61
+#: hattframework/vc-elements/ht-learn.php:67
+msgid "Asc"
+msgstr ""
+
+#: hattframework/vc-elements/ht-faq.php:62
+#: hattframework/vc-elements/ht-learn.php:68
+msgid "Desc"
+msgstr ""
+
+#: hattframework/vc-elements/ht-faq.php:70
+#: hattframework/vc-elements/ht-faq.php:74
+#: hattframework/vc-elements/ht-learn.php:76
+#: hattframework/vc-elements/ht-learn.php:80
+msgid "Order By"
+msgstr ""
+
+#: hattframework/vc-elements/ht-find-tyres.php:59
+msgid "Find Tyres"
+msgstr ""
+
+#: hattframework/vc-elements/ht-find-tyres.php:84
+msgid "Find tyres type"
+msgstr ""
+
+#: hattframework/vc-elements/ht-find-tyres.php:92
+#: hattframework/vc-elements/ht-rfq.php:92
+#: hattframework/vc-elements/ht-type-browser.php:55
+msgid "Show Filter Feature on sidebar"
+msgstr ""
+
+#: hattframework/vc-elements/ht-find-tyres.php:94
+#: hattframework/vc-elements/ht-rfq.php:94
+msgid "By size"
+msgstr ""
+
+#: hattframework/vc-elements/ht-find-tyres.php:94
+#: hattframework/vc-elements/ht-rfq.php:94
+msgid "By vehicle"
+msgstr "ตามประเภทของรถยนต์"
+
+#: hattframework/vc-elements/ht-find-tyres.php:100
+#: hattframework/vc-elements/ht-rfq.php:100
+msgid "Type name"
+msgstr ""
+
+#: hattframework/vc-elements/ht-learn.php:39
+#: hattframework/vc-elements/ht-type-browser.php:48
+msgid "Select Category"
+msgstr ""
+
+#: hattframework/vc-elements/ht-learn.php:55
+#: hattframework/vc-elements/ht-learn.php:58
+msgid "Post per row"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:34
+msgid "Masthead"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:43
+#: hattframework/vc-elements/ht-masthead_offer.php:43
+msgid "CSS class"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:49
+#: hattframework/vc-elements/ht-masthead_offer.php:49
+msgid "Show content on mobile"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:56
+#: hattframework/vc-elements/ht-masthead_offer.php:56
+msgid "Image background"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:61
+#: hattframework/vc-elements/ht-masthead_offer.php:61
+msgid "Image background mobile"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:79
+#: hattframework/vc-elements/ht-masthead_offer.php:79
+msgid "Category name"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:85
+#: hattframework/vc-elements/ht-masthead_offer.php:91
+msgid "Align content"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:88
+#: hattframework/vc-elements/ht-masthead_offer.php:94
+#: hattframework/vc-elements/ht-store-filter.php:55
+#: hattframework/vc-elements/ht-type-browser.php:88
+msgid "Left"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:89
+#: hattframework/vc-elements/ht-masthead_offer.php:95
+#: hattframework/vc-elements/ht-store-filter.php:55
+#: hattframework/vc-elements/ht-type-browser.php:88
+msgid "Right"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:96
+#: hattframework/vc-elements/ht-masthead_offer.php:102
+msgid "Add Scroll to"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:103
+#: hattframework/vc-elements/ht-masthead_offer.php:109
+msgid "Id row want srcoll to"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:106
+#: hattframework/vc-elements/ht-masthead_offer.php:112
+msgid "This id row your want scroll to ."
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:112
+msgid "Button Shortcode"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:114
+msgid "Enter your Button."
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:119
+#: hattframework/vc-elements/ht-masthead_offer.php:125
+msgid "CSS"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead.php:121
+#: hattframework/vc-elements/ht-masthead_offer.php:127
+msgid "Design options"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead_offer.php:34
+msgid "Masthead Offer"
+msgstr ""
+
+#: hattframework/vc-elements/ht-masthead_offer.php:85
+msgid "Button name"
+msgstr ""
+
+#: hattframework/vc-elements/ht-rfq.php:59
+msgid "RFQ"
+msgstr ""
+
+#: hattframework/vc-elements/ht-rfq.php:84
+msgid "RFQ type"
+msgstr ""
+
+#: hattframework/vc-elements/ht-store-filter.php:29
+msgid "Filter Stores"
+msgstr ""
+
+#: hattframework/vc-elements/ht-store-filter.php:38
+msgid "Show Filter Category on sidebar"
+msgstr ""
+
+#: hattframework/vc-elements/ht-store-filter.php:45
+msgid "Select Store Category"
+msgstr ""
+
+#: hattframework/vc-elements/ht-store-filter.php:53
+msgid "Location Filter Category on sidebar"
+msgstr ""
+
+#: hattframework/vc-elements/ht-timeline-about.php:43
+msgid "TimeLine About us"
+msgstr ""
+
+#: hattframework/vc-elements/ht-timeline-about.php:68
+msgid "Timeline Item"
+msgstr ""
+
+#: hattframework/vc-elements/ht-timeline-about.php:76
+msgid "Time"
+msgstr ""
+
+#: hattframework/vc-elements/ht-timeline-about.php:82
+msgid "Image timeline"
+msgstr ""
+
+#: hattframework/vc-elements/ht-timeline-about.php:87
+msgid "Item Description"
+msgstr ""
+
+#: hattframework/vc-elements/ht-type-browser.php:33
+msgid "Browser tyre"
+msgstr ""
+
+#: hattframework/vc-elements/ht-type-browser.php:42
+msgid "Show Filter category"
+msgstr ""
+
+#: hattframework/vc-elements/ht-type-browser.php:62
+msgid "Select Feature"
+msgstr ""
+
+#: hattframework/vc-elements/ht-type-browser.php:86
+msgid "Show Filter on sidebar"
+msgstr ""
+
+#: header/main-menu.php:11
+msgid "All Categories"
+msgstr ""
+
+#: header/main-menu.php:23
+msgid "No menu selected"
+msgstr ""
+
+#: header/mini-cart.php:17
+#, php-format
+msgid "Cart - %s"
+msgstr ""
+
+#: header/search-form.php:17
+msgid "What are you looking for?"
+msgstr ""
+
+#: loop-career.php:1 loop-offer.php:1 template-career.php:31
+#: template-offer.php:31
+msgid "Your role is not on the list?"
+msgstr "ตำแหน่งที่ค้นหาไม่ได้อยู่ในรายการ"
+
+#: loop-learn.php:1
+msgid "No Result"
+msgstr ""
+
+#: loop-none.php:1
+msgid "Sorry, no results found."
+msgstr "ขออภัย ไม่พบข้อมูลที่ค้นหา"
+
+#: search.php:41
+msgid "Search Results"
+msgstr "ผลของการค้นหา"
+
+#: search.php:48 search.php:60
+msgid "matches were found."
+msgstr "   "
+
+#: search.php:55
+#, php-format
+msgid "You searched for the text “%s“ and %s matches were found."
+msgstr ""
+
+#: search.php:60
+msgid "You searched for the text"
+msgstr "พบการค้นหา จากข้อความ"
+
+#: search.php:60
+msgid "and"
+msgstr "และ"
+
+#: searchform.php:11
+msgid "Search..."
+msgstr "ค้นหา..."
+
+#: single-learn.php:54
+msgid "Related Articles"
+msgstr "บทความที่เกี่ยวข้อง"
+
+#: vc_templates/vc_tab.php:11
+msgid "Empty tab. Edit page to add content here."
+msgstr ""
+
+#: vc_templates/vc_tabs.php:51
+msgid "Previous tab"
+msgstr ""
+
+#: vc_templates/vc_tabs.php:51
+msgid "Next tab"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Hatt Framework"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "#"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "hatt"
+msgstr ""
+
+#~ msgid "Year"
+#~ msgstr "ปีผลิต"
+
+#~ msgctxt "store-page"
+#~ msgid "results found"
+#~ msgstr "พบจำนวน <span id=\"total_result\"></span> ร้าน"
+
+#~ msgid "Scroll down to"
+#~ msgstr "เลื่อนลง"
+
+#~ msgctxt "browser"
+#~ msgid "Filter by category"
+#~ msgstr "เลือกตามประเภทของยาง"

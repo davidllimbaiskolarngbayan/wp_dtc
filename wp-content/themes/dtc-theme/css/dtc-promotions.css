@@ -1,0 +1,65 @@
+body.dtc-promotions-page,
+body.dtc-promotions-page #wapper.main-wrapper { background: #fff !important; }
+html:has(body.dtc-promotions-page) { background: #000; }
+
+.dtc-promotions,
+.dtc-promotions * { box-sizing: border-box; }
+.dtc-promotions { max-width: 1240px; margin: 0 auto; padding: 36px 20px 72px; color: #202533; font-size: 16px; line-height: 1.6; }
+.dtc-promotions__hero { display: grid; gap: 32px; align-items: center; overflow: hidden; padding: clamp(28px, 5vw, 62px); border-radius: 20px; background: radial-gradient(ellipse at 85% 50%, rgba(31, 75, 150, .72), transparent 42%), linear-gradient(125deg, #071b43, #0b2a63 65%, #123a86); color: #fff; }
+.dtc-promotions__hero-copy { max-width: 660px; }
+.dtc-promotions__eyebrow { margin: 0 0 10px; color: #0b3d91; font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.dtc-promotions__hero .dtc-promotions__eyebrow { color: #ffd64a; }
+.dtc-promotions h1 { margin: 0 0 16px; color: #fff !important; font-size: clamp(36px, 6vw, 64px); font-weight: 900; letter-spacing: -.035em; line-height: 1.02; }
+.dtc-promotions__hero-copy > p:not(.dtc-promotions__eyebrow) { max-width: 620px; margin: 0; color: #e0e8f8; font-size: clamp(17px, 2vw, 20px); }
+.dtc-promotions__hero-copy > p strong { color: #fff; }
+.dtc-promotions__hero-cta { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; margin-top: 24px; padding: 0 22px; border-radius: 8px; background: #fbbd00; color: #111 !important; font-weight: 800; text-decoration: none !important; transition: background .2s ease, transform .2s ease; }
+.dtc-promotions__hero-cta:hover { transform: translateY(-2px); background: #ffd23f; }
+.dtc-promotions__reward { display: flex; flex-direction: column; align-items: center; justify-content: center; justify-self: start; width: min(100%, 310px); min-height: 240px; padding: 24px; border: 1px solid rgba(255,255,255,.34); border-radius: 18px; background: linear-gradient(145deg, #f9c629, #f7a900); box-shadow: 0 20px 50px rgba(0, 0, 0, .24); color: #0b214d; text-align: center; transform: rotate(1deg); }
+.dtc-promotions__reward-label { font-size: 12px; font-weight: 900; letter-spacing: .12em; }
+.dtc-promotions__reward-value { margin: 4px 0 -4px; font-size: clamp(48px, 7vw, 70px); font-weight: 900; letter-spacing: -.055em; line-height: 1.1; }
+.dtc-promotions__reward-caption { font-size: 22px; font-weight: 800; }
+.dtc-promotions__reward-rim { margin-top: 14px; padding: 6px 12px; border: 1px solid rgba(11, 33, 77, .34); border-radius: 999px; font-size: 12px; font-weight: 800; }
+.dtc-promotions__details { padding-top: 54px; }
+.dtc-promotions__section-heading { margin-bottom: 24px; text-align: center; }
+.dtc-promotions h2 { margin: 0; color: #0b2a63; font-size: clamp(26px, 4vw, 38px); font-weight: 850; letter-spacing: -.025em; line-height: 1.15; }
+.dtc-promotions__steps { display: grid; gap: 16px; }
+.dtc-promotions__step { min-height: 205px; padding: 24px; border: 1px solid #d9e0ec; border-radius: 14px; background: #fff; box-shadow: 0 8px 24px rgba(11, 42, 99, .055); }
+.dtc-promotions__step-number { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; margin-bottom: 22px; border-radius: 50%; background: #0b2a63; color: #fff; font-size: 13px; font-weight: 900; }
+.dtc-promotions h3 { margin: 0 0 8px; color: #0b2a63; font-size: 21px; font-weight: 800; line-height: 1.25; }
+.dtc-promotions__step p,
+.dtc-promotions__cta > div:first-child > p:last-child { margin: 0; color: #566176; }
+.dtc-promotions__cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; margin-top: 30px; padding: clamp(24px, 4vw, 40px); border-radius: 16px; background: #f2f5fa; }
+.dtc-promotions__cta h2 { max-width: 620px; }
+.dtc-promotions__cta > div:first-child > p:last-child { margin-top: 10px; }
+.dtc-promotions__actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.dtc-promotions__button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 20px; border: 1px solid #0b2a63; border-radius: 9px; font-weight: 750; text-decoration: none !important; box-shadow: 0 4px 12px rgba(11, 42, 99, .12); transition: background-color .16s ease, border-color .16s ease, box-shadow .16s ease, color .16s ease, transform .16s ease; }
+.dtc-promotions__button--primary { background: #0b2a63; color: #fff !important; }
+.dtc-promotions__button--primary:hover { border-color: #071d47; background: #071d47; color: #fff !important; }
+.dtc-promotions__button--secondary { background: #fff; color: #0b2a63 !important; }
+.dtc-promotions__button--secondary:hover { border-color: #9bacbf; background: #f2f5fa; color: #071d47 !important; }
+.dtc-promotions__button:hover { box-shadow: 0 7px 16px rgba(11, 42, 99, .18); transform: translateY(-1px); }
+.dtc-promotions__button:active { box-shadow: inset 0 2px 4px rgba(11, 42, 99, .16); transform: translateY(0); }
+.dtc-promotions__button:focus-visible { outline: 3px solid rgba(0, 78, 168, .35); outline-offset: 3px; }
+.dtc-promotions__terms { margin-top: 26px; padding: 20px 22px; border-left: 4px solid #fbbd00; border-radius: 0 12px 12px 0; background: #fff8df; color: #44506a; }
+.dtc-promotions__terms h2 { margin: 0 0 8px; font-size: 19px; letter-spacing: 0; }
+.dtc-promotions__terms p { margin: 0; font-size: 14px; }
+.dtc-promotions a:focus-visible { outline: 3px solid rgba(0, 78, 168, .6); outline-offset: 3px; }
+
+@media (min-width: 760px) {
+    .dtc-promotions__hero { grid-template-columns: minmax(0, 1fr) 310px; }
+    .dtc-promotions__reward { justify-self: center; }
+    .dtc-promotions__steps { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dtc-promotions__button { transition: none; }
+    .dtc-promotions__button:hover { transform: none; }
+}
+
+@media (max-width: 480px) {
+    .dtc-promotions { padding-right: 14px; padding-left: 14px; }
+    .dtc-promotions__hero { border-radius: 14px; }
+    .dtc-promotions__reward { min-height: 210px; }
+    .dtc-promotions__actions { width: 100%; }
+    .dtc-promotions__button { flex: 1 1 100%; }
+}

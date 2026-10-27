@@ -1,0 +1,23 @@
+/* BEGIN style_custom_css */
+.visible-xs .icon-box a:nth-child(4){
+    display: none;
+}
+
+.coop{
+    background-image: url("/wp-content/uploads/menu_coopertire.png");
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: 30px;
+    padding: 10px 0px;
+    font-size: 0px;
+}
+
+.coop:hover{
+    background-color: #008CBA;
+    opacity: 0.5;
+}
+
+#menu-item-11734 a {
+    background: none !important;
+}
+/* END style_custom_css */

@@ -1,0 +1,177 @@
+.dtc-home {
+    --dtc-dark: #222;
+    --dtc-accent: #ffc20e;
+    --dtc-blue: #0b3d91;
+    color: var(--dtc-dark);
+    background: #fff;
+    line-height: 1.5;
+}
+.dtc-home img { max-width: 100%; height: auto; display: block; }
+.dtc-home a { text-decoration: none; }
+/* The footer's top margin otherwise shows the theme's grey body. */
+body.home { background: #fff !important; }
+
+/* Shared slider */
+.dtc-slider { position: relative; }
+.dtc-slider__track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.dtc-slider__track::-webkit-scrollbar { display: none; }
+.dtc-slider__track { cursor: grab; }
+/* Snap and smooth scrolling would fight the pointer while dragging. */
+.dtc-slider__track.is-dragging { cursor: grabbing; scroll-snap-type: none; scroll-behavior: auto; user-select: none; }
+.dtc-slider__slide { flex: 0 0 100%; scroll-snap-align: start; }
+.dtc-slider__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 2;
+}
+.dtc-slider__btn:hover:not(:disabled), .dtc-slider__btn:focus-visible { background: var(--dtc-blue); }
+.dtc-slider__btn:disabled { opacity: .35; cursor: default; }
+.dtc-slider__btn--prev { left: 12px; }
+.dtc-slider__btn--next { right: 12px; }
+
+/* Typography and buttons */
+.dtc-eyebrow { color: inherit; font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 12px; }
+.dtc-display { color: inherit; font-size: 34px; font-weight: 800; line-height: 1.15; margin: 0 0 16px; }
+.dtc-btn {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 26px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    font-weight: 750;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    text-decoration: none !important;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, .14);
+    transition: background-color .16s ease, border-color .16s ease, box-shadow .16s ease, color .16s ease, transform .16s ease;
+}
+.dtc-btn--primary { border-color: #e2a900; background: var(--dtc-accent); color: #111; }
+.dtc-btn--primary:hover, .dtc-btn--primary:focus-visible { border-color: #c99200; background: #ffd23f; color: #111; }
+.dtc-btn--dark { border-color: #0b2a63; background: var(--dtc-dark); color: #fff; }
+.dtc-btn--dark:hover, .dtc-btn--dark:focus-visible { border-color: #071d47; background: #071d47; color: #fff; }
+.dtc-btn:hover { box-shadow: 0 8px 18px rgba(0, 0, 0, .2); transform: translateY(-1px); }
+.dtc-btn:active { box-shadow: inset 0 2px 4px rgba(0, 0, 0, .2); transform: translateY(0); }
+.dtc-btn:focus-visible { outline: 3px solid rgba(11, 42, 99, .35); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { .dtc-btn { transition: none; } .dtc-btn:hover { transform: none; } }
+.dtc-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin-top: 24px; }
+.dtc-link { color: inherit; font-weight: 700; }
+.dtc-link:hover, .dtc-link:focus-visible { text-decoration: underline; }
+
+/* Hero */
+.dtc-hero { max-width: 1920px; margin: 0 auto; }
+.dtc-hero img { width: 100%; }
+
+.dtc-intro { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+
+/* Vehicle types */
+.dtc-vehicle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--dtc-dark);
+    color: #fff;
+    padding: 48px 32px;
+}
+.dtc-vehicle__text { flex: 1 1 100%; padding: 0 0 24px; }
+.dtc-vehicle__cards { flex: 1 1 100%; min-width: 0; }
+.dtc-vehicle .dtc-link { color: #fff; }
+.dtc-cards .dtc-slider__slide { flex-basis: 72%; }
+.dtc-cards .dtc-slider__track { padding-left: 24px; scroll-padding-left: 24px; }
+.dtc-empty { padding: 24px; }
+
+/* Slanted photo card with the tyre standing over its lower left corner. */
+.dtc-card {
+    position: relative;
+    display: block;
+    /* Wider than its slide so neighbouring slants nest with a thin gap. */
+    width: 117%;
+    aspect-ratio: 5 / 7;
+    color: #fff;
+}
+.dtc-card__photo {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    background: #444;
+    clip-path: polygon(17.5% 0, 100% 0, 82.5% 100%, 0 100%);
+}
+.dtc-card__photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, .85));
+    transition: background .3s ease;
+}
+.dtc-card__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 30% 50%; transition: transform .5s ease; }
+.dtc-card__tyre { position: absolute; left: -5%; bottom: 22%; z-index: 2; width: 40%; filter: drop-shadow(0 16px 10px rgba(0, 0, 0, .5)); transition: transform .3s ease; }
+.dtc-card__caption { position: absolute; left: 8%; right: 12%; bottom: 6%; z-index: 3; transition: color .3s ease; }
+.dtc-card__name { display: block; font-size: 24px; font-weight: 700; line-height: 1.1; }
+.dtc-card__cta { display: block; margin-top: 10px; font-size: 16px; font-weight: 700; }
+.dtc-card:hover .dtc-card__bg, .dtc-card:focus-visible .dtc-card__bg { transform: scale(1.06); }
+.dtc-card:hover .dtc-card__tyre, .dtc-card:focus-visible .dtc-card__tyre { transform: translateY(-6px) scale(1.03); }
+/* Same yellow as the primary buttons instead of the dark overlay. */
+.dtc-card:hover .dtc-card__photo::after, .dtc-card:focus-visible .dtc-card__photo::after { background: linear-gradient(rgba(255, 194, 14, 0) 25%, rgba(255, 194, 14, .96)); }
+.dtc-card:hover .dtc-card__caption, .dtc-card:focus-visible .dtc-card__caption { color: #111; }
+
+/* Progress bar with the arrows underneath the cards. */
+.dtc-cards { padding-bottom: 8px; }
+.dtc-cards .dtc-slider__controls { display: flex; align-items: center; gap: 12px; margin-top: 28px; padding-left: 8px; }
+.dtc-slider__progress { position: relative; flex: 1 1 auto; height: 8px; border-radius: 4px; background: rgba(255, 255, 255, .22); overflow: hidden; }
+.dtc-slider__thumb { position: absolute; top: 0; bottom: 0; left: 0; width: 40%; border-radius: 4px; background: #fff; }
+.dtc-cards .dtc-slider__btn { position: static; flex: 0 0 auto; transform: none; background: rgba(255, 255, 255, .2); color: #fff; }
+.dtc-cards .dtc-slider__btn:hover:not(:disabled), .dtc-cards .dtc-slider__btn:focus-visible { background: var(--dtc-accent); color: #111; }
+
+/* Content banners */
+.dtc-banner { display: flex; flex-wrap: wrap; align-items: center; margin: 0; }
+.dtc-banner--accent { background: var(--dtc-accent); margin: 0 0 72px; }
+.dtc-banner__image, .dtc-banner__content { flex: 1 1 100%; }
+.dtc-banner__image img { width: 100%; }
+.dtc-banner__content { padding: 32px 24px; }
+.dtc-banner--reverse { margin-bottom: 0; }
+
+/* Closing call to action */
+.dtc-continue { text-align: center; padding: 40px 16px 56px; }
+.dtc-continue__link { color: var(--dtc-dark); font-size: 40px; font-weight: 800; }
+.dtc-continue__link:hover, .dtc-continue__link:focus-visible { color: var(--dtc-blue); }
+
+@media (min-width: 768px) {
+    .dtc-cards .dtc-slider__slide { flex-basis: 42%; }
+    .dtc-card__name { font-size: clamp(22px, 2.1vw, 30px); }
+    .dtc-banner__image, .dtc-banner__content { flex-basis: 50%; }
+    /* Slanted inner edge, mirrored when the image sits on the right. */
+    .dtc-banner__image img { clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%); }
+    .dtc-banner--reverse .dtc-banner__image img { clip-path: polygon(9% 0, 100% 0, 100% 100%, 0 100%); }
+    .dtc-banner__content { padding: 48px 56px; }
+    /* Pull the Fleet text toward its image, which sits on the right. */
+    .dtc-banner--reverse .dtc-banner__content { padding-left: clamp(56px, 11vw, 200px); }
+    .dtc-banner--reverse .dtc-banner__image { order: 2; }
+}
+
+@media (min-width: 1024px) {
+    .dtc-vehicle__text { flex-basis: 33%; padding: 0 32px 0 0; }
+    .dtc-vehicle__cards { flex-basis: 67%; }
+    .dtc-cards .dtc-slider__slide { flex-basis: 30%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dtc-slider__track { scroll-behavior: auto; }
+    .dtc-card__bg { transition: none; }
+}
